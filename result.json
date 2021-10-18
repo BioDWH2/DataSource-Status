@@ -1,8 +1,14 @@
 {
+    "AACT": {
+        "files": [
+            "https://aact.ctti-clinicaltrials.org/static/exported_files/monthly/20211004_pipe-delimited-export.zip"
+        ],
+        "version": "2021.10.04"
+    },
     "DrugCentral": {
         "files": [
             "https://unmtid-shinyapps.net/download/drugcentral.dump.010_05_2021.sql.gz"
         ],
-        "version": "010.05.2021"
+        "version": "2021.010.05"
     }
 }
