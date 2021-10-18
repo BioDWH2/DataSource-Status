@@ -1,6 +1,8 @@
 {
     "DrugCentral": {
-        "files": [],
-        "version": null
+        "files": [
+            "https://unmtid-shinyapps.net/download/drugcentral.dump.010_05_2021.sql.gz"
+        ],
+        "version": "010.05.2021"
     }
 }
