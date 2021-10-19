@@ -237,8 +237,26 @@ def get_kegg_entry() -> List[Entry]:
 
 
 def get_med_rt_entry() -> List[Entry]:
-    # TODO
-    return DEFAULT
+    ftp = FTP('ftp1.nci.nih.gov')
+    ftp.login()
+    file_paths = ftp.nlst('/pub/cacore/EVS/MED-RT/Archive')
+    file_names = [x.split('/')[-1] for x in file_paths if
+                  x.split('/')[-1].startswith('Core_MEDRT_') and x.split('/')[-1].endswith('_XML.zip')]
+    file_names = sorted(file_names, reverse=True)
+    ftp.close()
+    pattern = re.compile(r'([0-9]{4}\.[0-9]{2}\.[0-9]{2})')
+    result = []
+    for file_name in file_names:
+        matches = pattern.findall(file_name)
+        entry: Entry = {
+            'version': matches[0],
+            'files': {
+                'Core_MEDRT_XML.zip': 'https://evs.nci.nih.gov/ftp1/MED-RT/Archive/' + file_name
+            },
+            'latest': file_name == file_names[0]
+        }
+        result.append(entry)
+    return result
 
 
 def get_mondo_entry() -> List[Entry]:
@@ -257,8 +275,25 @@ def get_mondo_entry() -> List[Entry]:
 
 
 def get_ndf_rt_entry() -> List[Entry]:
-    # TODO
-    return DEFAULT
+    ftp = FTP('ftp1.nci.nih.gov')
+    ftp.login()
+    file_paths = ftp.nlst('/pub/cacore/EVS/NDF-RT/Archive')
+    file_names = [x.split('/')[-1] for x in file_paths if x.split('/')[-1].startswith('NDFRT_Public_All')]
+    file_names = sorted(file_names, reverse=True)
+    ftp.close()
+    pattern = re.compile(r'([0-9]{4})-([0-9]{2})-([0-9]{2})')
+    result = []
+    for file_name in file_names:
+        matches = pattern.findall(file_name)
+        entry: Entry = {
+            'version': matches[0][0] + '.' + matches[0][1] + '.' + matches[0][2],
+            'files': {
+                'NDFRT_Public_All.zip': 'https://evs.nci.nih.gov/ftp1/NDF-RT/Archive/' + file_name
+            },
+            'latest': file_name == file_names[0]
+        }
+        result.append(entry)
+    return result
 
 
 def get_open_targets_entry() -> List[Entry]:
