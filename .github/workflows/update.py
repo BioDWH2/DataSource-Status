@@ -164,8 +164,22 @@ def get_gene_ontology_entry() -> List[Entry]:
 
 
 def get_gwas_catalog_entry() -> List[Entry]:
-    # TODO
-    return DEFAULT
+    headers = {'User-Agent': 'DataSource-Status Fetcher'}
+    request = requests.get('https://www.ebi.ac.uk/gwas/api/search/downloads/alternative', headers=headers, stream=True)
+    disposition = request.headers['content-disposition']
+    file_name = re.findall("filename=(.+)", disposition)[0].strip()
+    pattern = re.compile('([0-9]{4})-([0-9]{2})-([0-9]{2})')
+    matches = pattern.findall(file_name)
+    entry: Entry = {
+        'version': matches[0][0] + '.' + matches[0][1] + '.' + matches[0][2],
+        'files': {
+            'gwas_catalog_associations.tsv': 'https://www.ebi.ac.uk/gwas/api/search/downloads/alternative',
+            'gwas_catalog_studies.tsv': 'https://www.ebi.ac.uk/gwas/api/search/downloads/studies_alternative',
+            'gwas_catalog_ancestry.tsv': 'https://www.ebi.ac.uk/gwas/api/search/downloads/ancestry'
+        },
+        'latest': True
+    }
+    return [entry]
 
 
 def get_hgnc_entry() -> List[Entry]:
