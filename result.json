@@ -1,14 +1,359 @@
 {
-    "AACT": {
-        "files": [
-            "https://aact.ctti-clinicaltrials.org/static/exported_files/monthly/20211004_pipe-delimited-export.zip"
-        ],
-        "version": "2021.10.04"
-    },
-    "DrugCentral": {
-        "files": [
-            "https://unmtid-shinyapps.net/download/drugcentral.dump.010_05_2021.sql.gz"
-        ],
-        "version": "2021.010.05"
+  "AACT": [
+    {
+      "files": {
+        "pipe-delimited-export.zip": "https://aact.ctti-clinicaltrials.org/static/exported_files/monthly/20211004_pipe-delimited-export.zip"
+      },
+      "latest": true,
+      "version": "2021.10.04"
     }
+  ],
+  "CanadianNutrientFile": [
+    {
+      "files": {
+        "cnf-fcen-csv.zip": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/zip/nutrition/fiche-nutri-data/cnf-fcen-csv.zip"
+      },
+      "latest": true,
+      "version": "2016.06.03"
+    }
+  ],
+  "CancerDrugsDB": [
+    {
+      "files": {
+        "cancerdrugsdb.txt": "https://acfdata.coworks.be/cancerdrugsdb.txt"
+      },
+      "latest": true,
+      "version": "21.08.09"
+    }
+  ],
+  "DGIdb": [],
+  "DrugBank": [
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-1-8/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-1-8/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-1-8/downloads/all-structures"
+      },
+      "latest": true,
+      "version": "5.1.8"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-1-7/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-1-7/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-1-7/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.1.7"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-1-6/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-1-6/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-1-6/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.1.6"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-1-5/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-1-5/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-1-5/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.1.5"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-1-4/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-1-4/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-1-4/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.1.4"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-1-3/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-1-3/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-1-3/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.1.3"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-1-2/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-1-2/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-1-2/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.1.2"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-1-1/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-1-1/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-1-1/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.1.1"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-1-0/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-1-0/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-1-0/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.1.0"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-0-11/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-0-11/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-0-11/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.0.11"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-0-10/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-0-10/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-0-10/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.0.10"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-0-9/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-0-9/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-0-9/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.0.9"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-0-8/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-0-8/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-0-8/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.0.8"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-0-7/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-0-7/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-0-7/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.0.7"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-0-6/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-0-6/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-0-6/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.0.6"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-0-5/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-0-5/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-0-5/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.0.5"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-0-4/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-0-4/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-0-4/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.0.4"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-0-3/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-0-3/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-0-3/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.0.3"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-0-2/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-0-2/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-0-2/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.0.2"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-0-1/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-0-1/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-0-1/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.0.1"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-0-0/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-0-0/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-0-0/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "5.0.0"
+    },
+    {
+      "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/4-5-0/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/4-5-0/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/4-5-0/downloads/all-structures"
+      },
+      "latest": false,
+      "version": "4.5.0"
+    }
+  ],
+  "DrugCentral": [
+    {
+      "files": {
+        "drugcentral.dump.sql.gz": "https://unmtid-shinyapps.net/download/drugcentral.dump.010_05_2021.sql.gz"
+      },
+      "latest": true,
+      "version": "2021.010.05"
+    }
+  ],
+  "EMA": [
+    {
+      "files": {
+        "Medicines_output_european_public_assessment_reports.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_european_public_assessment_reports.xlsx",
+        "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
+      },
+      "latest": true,
+      "version": "2021.10.19"
+    }
+  ],
+  "GWASCatalog": [],
+  "Gene2Phenotype": [
+    {
+      "files": {
+        "CancerG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/CancerG2P.csv.gz",
+        "DDG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/DDG2P.csv.gz",
+        "EyeG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/EyeG2P.csv.gz",
+        "SkinG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/SkinG2P.csv.gz"
+      },
+      "latest": true,
+      "version": "2021.09.29"
+    }
+  ],
+  "GeneOntology": [
+    {
+      "files": {
+        "go.obo": "http://current.geneontology.org/ontology/go.obo",
+        "goa_human.gaf.gz": "http://current.geneontology.org/annotations/goa_human.gaf.gz",
+        "goa_human_complex.gaf.gz": "http://current.geneontology.org/annotations/goa_human_complex.gaf.gz",
+        "goa_human_isoform.gaf.gz": "http://current.geneontology.org/annotations/goa_human_isoform.gaf.gz",
+        "goa_human_rna.gaf.gz": "http://current.geneontology.org/annotations/goa_human_rna.gaf.gz"
+      },
+      "latest": true,
+      "version": "2021.09.01"
+    }
+  ],
+  "HGNC": [
+    {
+      "files": {
+        "hgnc_complete_set.txt": null
+      },
+      "latest": true,
+      "version": null
+    }
+  ],
+  "HPO": [
+    {
+      "files": {
+        "genes_to_phenotype.txt": "http://purl.obolibrary.org/obo/hp/hpoa/genes_to_phenotype.txt",
+        "hp.obo": "https://raw.githubusercontent.com/obophenotype/human-phenotype-ontology/master/hp.obo",
+        "phenotype.hpoa": "http://purl.obolibrary.org/obo/hp/hpoa/phenotype.hpoa",
+        "phenotype_to_genes.txt": "http://purl.obolibrary.org/obo/hp/hpoa/phenotype_to_genes.txt"
+      },
+      "latest": true,
+      "version": "2021.10.10"
+    }
+  ],
+  "ITIS": [
+    {
+      "files": {
+        "itisMySQLTables.tar.gz": "https://www.itis.gov/downloads/itisMySQLTables.tar.gz"
+      },
+      "latest": true,
+      "version": "2021.9.28"
+    }
+  ],
+  "KEGG": [],
+  "MED-RT": [],
+  "Mondo": [
+    {
+      "files": {
+        "mondo.obo": "http://purl.obolibrary.org/obo/mondo.obo"
+      },
+      "latest": true,
+      "version": "2021.10.01"
+    }
+  ],
+  "NDF-RT": [],
+  "OpenTargets": [],
+  "PathwayCommons": [],
+  "PharmGKB": [],
+  "ReDO-DB": [
+    {
+      "files": {
+        "redo_db.txt": "https://acfdata.coworks.be/redo_db.txt"
+      },
+      "latest": true,
+      "version": "21.09.02"
+    }
+  ],
+  "ReDOTrialsDB": [
+    {
+      "files": {
+        "ReDO_Trials_DB.txt": "https://acfdata.coworks.be/ReDO_Trials_DB.txt"
+      },
+      "latest": true,
+      "version": "2021.10.11"
+    }
+  ],
+  "Sider": [],
+  "UNII": [
+    {
+      "files": {
+        "UNII_Data.zip": "https://fdasis.nlm.nih.gov/srs/download/srs/UNII_Data.zip",
+        "UNIIs.zip": "https://fdasis.nlm.nih.gov/srs/download/srs/UNIIs.zip"
+      },
+      "latest": true,
+      "version": "2021.10"
+    }
+  ],
+  "USDA-PLANTS": [
+    {
+      "files": {
+        "plantlst.txt": "https://plants.sc.egov.usda.gov/assets/docs/CompletePLANTSList/plantlst.txt"
+      },
+      "latest": true,
+      "version": null
+    }
+  ],
+  "UniProt": []
 }
