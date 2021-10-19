@@ -1,7 +1,9 @@
 import re
 import json
 import requests
+from ftplib import FTP
 from datetime import datetime
+from dateutil import parser
 from typing import Dict, Union, List
 from typing_extensions import TypedDict
 
@@ -167,11 +169,15 @@ def get_gwas_catalog_entry() -> List[Entry]:
 
 
 def get_hgnc_entry() -> List[Entry]:
-    # TODO
+    ftp = FTP('ftp.ebi.ac.uk')
+    ftp.login()
+    modified_datetime = parser.parse(
+        ftp.voidcmd('MDTM pub/databases/genenames/new/tsv/hgnc_complete_set.txt')[4:].strip())
+    ftp.close()
     entry: Entry = {
-        'version': None,
+        'version': modified_datetime.strftime('%Y.%m.%d'),
         'files': {
-            'hgnc_complete_set.txt': None
+            'hgnc_complete_set.txt': 'https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt'
         },
         'latest': True
     }
