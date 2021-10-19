@@ -305,8 +305,23 @@ def get_redo_trials_db_entry() -> List[Entry]:
 
 
 def get_sider_entry() -> List[Entry]:
-    # TODO
-    return DEFAULT
+    ftp = FTP('xi.embl.de')
+    ftp.login()
+    modified_datetime = parser.parse(ftp.voidcmd('MDTM /SIDER/latest/meddra_all_label_se.tsv.gz')[4:].strip())
+    ftp.close()
+    entry: Entry = {
+        'version': modified_datetime.strftime('%Y.%m.%d'),
+        'files': {
+            'drug_names.tsv': 'http://sideeffects.embl.de/media/download/drug_names.tsv',
+            'drug_atc.tsv': 'http://sideeffects.embl.de/media/download/drug_atc.tsv',
+            # FTP only files
+            'meddra_all_label_indications.tsv.gz': None,
+            'meddra_all_label_se.tsv.gz': None,
+            'meddra_freq.tsv.gz': None
+        },
+        'latest': True
+    }
+    return [entry]
 
 
 def get_unii_entry() -> List[Entry]:
