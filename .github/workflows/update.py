@@ -340,8 +340,20 @@ def get_unii_entry() -> List[Entry]:
 
 
 def get_uniprot_entry() -> List[Entry]:
-    # TODO
-    return DEFAULT
+    ftp = FTP('ftp.uniprot.org')
+    ftp.login()
+    modified_datetime = parser.parse(ftp.voidcmd(
+        'MDTM pub/databases/uniprot/current_release/knowledgebase/taxonomic_divisions/uniprot_sprot_human.xml.gz')[
+                                     4:].strip())
+    ftp.close()
+    entry: Entry = {
+        'version': modified_datetime.strftime('%Y.%m.%d'),
+        'files': {
+            'uniprot_sprot_human.xml.gz': 'https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/taxonomic_divisions/uniprot_sprot_human.xml.gz'
+        },
+        'latest': True
+    }
+    return [entry]
 
 
 def get_usda_plants_entry() -> List[Entry]:
