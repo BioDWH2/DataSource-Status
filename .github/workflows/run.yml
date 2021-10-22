@@ -13,6 +13,7 @@ jobs:
         with:
           python-version: '3.8'
       - run: |
+          pip install requests python-dateutil
           python update.py
       - name: push updated list
         run: |
