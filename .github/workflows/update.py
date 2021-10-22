@@ -242,8 +242,27 @@ def get_itis_entry() -> List[Entry]:
 
 
 def get_kegg_entry() -> List[Entry]:
-    # TODO
-    return DEFAULT
+    ftp = FTP('ftp.genome.jp')
+    ftp.login()
+    modified_datetimes = [parser.parse(ftp.voidcmd('MDTM pub/kegg/medicus/' + x)[4:].strip()) for x in
+                          ['dgroup/dgroup', 'disease/disease', 'drug/drug', 'network/network']]
+    ftp.close()
+    version = sorted([x.strftime('%Y.%m.%d') for x in modified_datetimes], reverse=True)[0]
+    entry: Entry = {
+        'version': version,
+        'files': {
+            'dgroup': 'ftp://ftp.genome.jp/pub/kegg/medicus/dgroup/dgroup',
+            'drug': 'ftp://ftp.genome.jp/pub/kegg/medicus/drug/drug',
+            'disease': 'ftp://ftp.genome.jp/pub/kegg/medicus/disease/disease',
+            'network': 'ftp://ftp.genome.jp/pub/kegg/medicus/network/network',
+            'variant': 'ftp://ftp.genome.jp/pub/kegg/medicus/network/variant',
+            'human_genes_list.tsv': 'http://rest.kegg.jp/list/hsa',
+            'compounds_list.tsv': 'http://rest.kegg.jp/list/compound',
+            'organisms_list.tsv': 'http://rest.kegg.jp/list/organism',
+        },
+        'latest': True
+    }
+    return [entry]
 
 
 def get_med_rt_entry() -> List[Entry]:
