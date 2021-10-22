@@ -2,10 +2,16 @@ import re
 import json
 import requests
 from ftplib import FTP
+from io import BytesIO
+from zipfile import ZipFile
 from datetime import datetime
 from dateutil import parser
 from typing import Dict, Union, List
-from typing_extensions import TypedDict
+
+try:
+    from typing_extensions import TypedDict
+except ModuleNotFoundError:
+    pass
 
 
 class Entry(TypedDict):
@@ -311,8 +317,36 @@ def get_pathway_commons_entry() -> List[Entry]:
 
 
 def get_pharmgkb_entry() -> List[Entry]:
-    # TODO
-    return DEFAULT
+    pattern = re.compile(r'([0-9]{4})-([0-9]{2})-([0-9]{2})')
+    version = None
+    r = requests.get('https://s3.pgkb.org/data/drugLabels.zip', stream=True)
+    with ZipFile(BytesIO(r.content)) as zip_file:
+        for item in zip_file.filelist:
+            if item.filename.startswith('CREATED'):
+                match = pattern.findall(item.filename)[0]
+                version = match[0] + '.' + match[1] + '.' + match[2]
+                break
+    entry: Entry = {
+        'version': version,
+        'files': {
+            'genes.zip': 'https://s3.pgkb.org/data/genes.zip',
+            'drugs.zip': 'https://s3.pgkb.org/data/drugs.zip',
+            'chemicals.zip': 'https://s3.pgkb.org/data/chemicals.zip',
+            'variants.zip': 'https://s3.pgkb.org/data/variants.zip',
+            'phenotypes.zip': 'https://s3.pgkb.org/data/phenotypes.zip',
+            'clinicalAnnotations.zip': 'https://s3.pgkb.org/data/clinicalAnnotations.zip',
+            'variantAnnotations.zip': 'https://s3.pgkb.org/data/variantAnnotations.zip',
+            'relationships.zip': 'https://s3.pgkb.org/data/relationships.zip',
+            'dosingGuidelines.json.zip': 'https://s3.pgkb.org/data/dosingGuidelines.json.zip',
+            'drugLabels.zip': 'https://s3.pgkb.org/data/drugLabels.zip',
+            'pathways-tsv.zip': 'https://s3.pgkb.org/data/pathways-tsv.zip',
+            'clinicalVariants.zip': 'https://s3.pgkb.org/data/clinicalVariants.zip',
+            'occurrences.zip': 'https://s3.pgkb.org/data/occurrences.zip',
+            'automated_annotations.zip': 'https://s3.pgkb.org/data/automated_annotations.zip'
+        },
+        'latest': True
+    }
+    return [entry]
 
 
 def get_redo_db_entry() -> List[Entry]:
