@@ -427,10 +427,9 @@ def get_sider_entry() -> List[Entry]:
         'files': {
             'drug_names.tsv': 'http://sideeffects.embl.de/media/download/drug_names.tsv',
             'drug_atc.tsv': 'http://sideeffects.embl.de/media/download/drug_atc.tsv',
-            # FTP only files
-            'meddra_all_label_indications.tsv.gz': None,
-            'meddra_all_label_se.tsv.gz': None,
-            'meddra_freq.tsv.gz': None
+            'meddra_all_label_indications.tsv.gz': 'ftp://xi.embl.de/SIDER/latest/meddra_all_label_indications.tsv.gz',
+            'meddra_all_label_se.tsv.gz': 'ftp://xi.embl.de/SIDER/latest/meddra_all_label_se.tsv.gz',
+            'meddra_freq.tsv.gz': 'ftp://xi.embl.de/SIDER/latest/meddra_freq.tsv.gz',
         },
         'latest': True
     }
