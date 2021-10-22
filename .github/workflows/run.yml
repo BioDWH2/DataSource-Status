@@ -1,0 +1,21 @@
+name: Update data source status
+on:
+  schedule:
+    # Every day at 8:00
+    - cron:  '0 8 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - run: .github/workflows/update.py
+      - name: push updated list
+          run: |
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Update data source versions"
+            git push
