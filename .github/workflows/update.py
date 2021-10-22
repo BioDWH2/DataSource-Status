@@ -312,8 +312,29 @@ def get_open_targets_entry() -> List[Entry]:
 
 
 def get_pathway_commons_entry() -> List[Entry]:
-    # TODO
-    return DEFAULT
+    version_source = get_website_source('https://www.pathwaycommons.org/archives/PC2/')
+    version_pattern = re.compile(r'<a href="v([0-9]+)/">v([0-9]+)/</a>')
+    matches = sorted([int(x[0]) for x in version_pattern.findall(version_source)], reverse=True)
+    versions = []
+    for version in matches:
+        if version < 9:
+            break
+        url_prefix = 'https://www.pathwaycommons.org/archives/PC2/v%s/' % version
+        entry: Entry = {
+            'version': str(version),
+            'files': {
+                'pathways.txt.gz': url_prefix + 'pathways.txt.gz',
+                'datasources.txt': url_prefix + 'datasources.txt',
+                'PathwayCommons.All.uniprot.gmt.gz': url_prefix + 'PathwayCommons%s.All.uniprot.gmt.gz' % version,
+                'PathwayCommons.All.hgnc.txt.gz': url_prefix + 'PathwayCommons%s.All.hgnc.txt.gz' % version,
+                'PathwayCommons.All.hgnc.sif.gz': url_prefix + 'PathwayCommons%s.All.hgnc.sif.gz' % version,
+                'PathwayCommons.All.hgnc.gmt.gz': url_prefix + 'PathwayCommons%s.All.hgnc.gmt.gz' % version,
+                'PathwayCommons.All.BIOPAX.owl.gz': url_prefix + 'PathwayCommons%s.All.BIOPAX.owl.gz' % version,
+            },
+            'latest': version == matches[0]
+        }
+        versions.append(entry)
+    return versions
 
 
 def get_pharmgkb_entry() -> List[Entry]:
