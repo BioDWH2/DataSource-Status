@@ -481,44 +481,49 @@ def get_usda_plants_entry() -> List[Entry]:
     return [entry]
 
 
-def try_get_data_source_entry(func) -> List[Entry]:
+def try_get_data_source_entry(log, data_source_id, func) -> List[Entry]:
     try:
-        return func()
+        versions = func()
+        print('Retrieved ' + str(len(versions)) + ' versions for data source "' + data_source_id + '"', file=log)
+        return versions
     except Exception as e:
-        print('Failed to retrieve data source entry for func "' + str(func) + '"', e)
+        print('Failed to retrieve data source "' + data_source_id + '" status', e, file=log)
         return DEFAULT
 
 
 if __name__ == '__main__':
-    result = {
-        'AACT': try_get_data_source_entry(get_aact_entry),
-        'CanadianNutrientFile': try_get_data_source_entry(get_canadian_nutrient_file_entry),
-        'CancerDrugsDB': try_get_data_source_entry(get_cancer_drugs_db_entry),
-        'DGIdb': try_get_data_source_entry(get_dgidb_entry),
-        'DrugBank': try_get_data_source_entry(get_drugbank_entry),
-        'DrugCentral': try_get_data_source_entry(get_drugcentral_entry),
-        'EMA': try_get_data_source_entry(get_ema_entry),
-        'Gene2Phenotype': try_get_data_source_entry(get_gene2phenotype_entry),
-        'GeneOntology': try_get_data_source_entry(get_gene_ontology_entry),
-        'GWASCatalog': try_get_data_source_entry(get_gwas_catalog_entry),
-        'HGNC': try_get_data_source_entry(get_hgnc_entry),
-        'HPO': try_get_data_source_entry(get_hpo_entry),
-        'ITIS': try_get_data_source_entry(get_itis_entry),
-        'KEGG': try_get_data_source_entry(get_kegg_entry),
-        'MED-RT': try_get_data_source_entry(get_med_rt_entry),
-        'Mondo': try_get_data_source_entry(get_mondo_entry),
-        'NDF-RT': try_get_data_source_entry(get_ndf_rt_entry),
-        'OpenTargets': try_get_data_source_entry(get_open_targets_entry),
-        'PathwayCommons': try_get_data_source_entry(get_pathway_commons_entry),
-        'PharmGKB': try_get_data_source_entry(get_pharmgkb_entry),
-        'ReDO-DB': try_get_data_source_entry(get_redo_db_entry),
-        'ReDOTrialsDB': try_get_data_source_entry(get_redo_trials_db_entry),
-        'Sider': try_get_data_source_entry(get_sider_entry),
-        'UNII': try_get_data_source_entry(get_unii_entry),
-        'UniProt': try_get_data_source_entry(get_uniprot_entry),
-        'USDA-PLANTS': try_get_data_source_entry(get_usda_plants_entry),
-    }
-    with open('result.json', 'w', encoding='utf-8') as f:
-        json.dump(result, f, indent=2, sort_keys=True)
-    with open('result.min.json', 'w', encoding='utf-8') as f:
-        json.dump(result, f)
+    with open('update-log.txt', 'w', encoding='utf-8') as log:
+        print('Updating data sources at ' + datetime.now().isoformat(), file=log)
+        result = {
+            'AACT': try_get_data_source_entry(log, 'AACT', get_aact_entry),
+            'CanadianNutrientFile': try_get_data_source_entry(log, 'CanadianNutrientFile',
+                                                              get_canadian_nutrient_file_entry),
+            'CancerDrugsDB': try_get_data_source_entry(log, 'CancerDrugsDB', get_cancer_drugs_db_entry),
+            'DGIdb': try_get_data_source_entry(log, 'DGIdb', get_dgidb_entry),
+            'DrugBank': try_get_data_source_entry(log, 'DrugBank', get_drugbank_entry),
+            'DrugCentral': try_get_data_source_entry(log, 'DrugCentral', get_drugcentral_entry),
+            'EMA': try_get_data_source_entry(log, 'EMA', get_ema_entry),
+            'Gene2Phenotype': try_get_data_source_entry(log, 'Gene2Phenotype', get_gene2phenotype_entry),
+            'GeneOntology': try_get_data_source_entry(log, 'GeneOntology', get_gene_ontology_entry),
+            'GWASCatalog': try_get_data_source_entry(log, 'GWASCatalog', get_gwas_catalog_entry),
+            'HGNC': try_get_data_source_entry(log, 'HGNC', get_hgnc_entry),
+            'HPO': try_get_data_source_entry(log, 'HPO', get_hpo_entry),
+            'ITIS': try_get_data_source_entry(log, 'ITIS', get_itis_entry),
+            'KEGG': try_get_data_source_entry(log, 'KEGG', get_kegg_entry),
+            'MED-RT': try_get_data_source_entry(log, 'MED-RT', get_med_rt_entry),
+            'Mondo': try_get_data_source_entry(log, 'Mondo', get_mondo_entry),
+            'NDF-RT': try_get_data_source_entry(log, 'NDF-RT', get_ndf_rt_entry),
+            'OpenTargets': try_get_data_source_entry(log, 'OpenTargets', get_open_targets_entry),
+            'PathwayCommons': try_get_data_source_entry(log, 'PathwayCommons', get_pathway_commons_entry),
+            'PharmGKB': try_get_data_source_entry(log, 'PharmGKB', get_pharmgkb_entry),
+            'ReDO-DB': try_get_data_source_entry(log, 'ReDO-DB', get_redo_db_entry),
+            'ReDOTrialsDB': try_get_data_source_entry(log, 'ReDOTrialsDB', get_redo_trials_db_entry),
+            'Sider': try_get_data_source_entry(log, 'Sider', get_sider_entry),
+            'UNII': try_get_data_source_entry(log, 'UNII', get_unii_entry),
+            'UniProt': try_get_data_source_entry(log, 'UniProt', get_uniprot_entry),
+            'USDA-PLANTS': try_get_data_source_entry(log, 'USDA-PLANTS', get_usda_plants_entry),
+        }
+        with open('result.json', 'w', encoding='utf-8') as f:
+            json.dump(result, f, indent=2, sort_keys=True)
+        with open('result.min.json', 'w', encoding='utf-8') as f:
+            json.dump(result, f)
