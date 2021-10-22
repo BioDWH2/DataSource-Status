@@ -47,14 +47,15 @@ def get_aact_entry() -> List[Entry]:
 
 
 def get_canadian_nutrient_file_entry() -> List[Entry]:
-    source = get_website_source(
-        'https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/nutrient-data/canadian-nutrient-file-2015-download-files.html')
+    source = get_website_source('https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/' +
+                                'nutrient-data/canadian-nutrient-file-2015-download-files.html')
     pattern = re.compile(r'dateModified">\s*([0-9]{4})-([0-9]{2})-([0-9]{2})\s*</time>')
     matches = pattern.findall(source)
     entry: Entry = {
         'version': matches[0][0] + '.' + matches[0][1] + '.' + matches[0][2],
         'files': {
-            'cnf-fcen-csv.zip': 'https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/zip/nutrition/fiche-nutri-data/cnf-fcen-csv.zip'
+            'cnf-fcen-csv.zip': 'https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/zip/' +
+                                'nutrition/fiche-nutri-data/cnf-fcen-csv.zip'
         },
         'latest': True
     }
@@ -83,7 +84,7 @@ def get_dgidb_entry() -> List[Entry]:
 def get_drugbank_entry() -> List[Entry]:
     releases = json.loads(get_website_source('http://go.drugbank.com/releases.json'))
     latest_version = sorted([release['version'] for release in releases], reverse=True)[0]
-    result = []
+    versions = []
     for release in releases:
         url = release['url']
         entry: Entry = {
@@ -95,8 +96,8 @@ def get_drugbank_entry() -> List[Entry]:
             },
             'latest': release['version'] == latest_version
         }
-        result.append(entry)
-    return result
+        versions.append(entry)
+    return versions
 
 
 def get_drugcentral_entry() -> List[Entry]:
@@ -119,8 +120,11 @@ def get_ema_entry() -> List[Entry]:
     entry: Entry = {
         'version': datetime.today().strftime('%Y.%m.%d'),
         'files': {
-            'Medicines_output_european_public_assessment_reports.xlsx': 'https://www.ema.europa.eu/sites/default/files/Medicines_output_european_public_assessment_reports.xlsx',
-            'Medicines_output_herbal_medicines.xlsx': 'https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx'
+            'Medicines_output_european_public_assessment_reports.xlsx':
+                'https://www.ema.europa.eu/sites/default/files/' +
+                'Medicines_output_european_public_assessment_reports.xlsx',
+            'Medicines_output_herbal_medicines.xlsx':
+                'https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx'
         },
         'latest': True
     }
@@ -245,7 +249,7 @@ def get_med_rt_entry() -> List[Entry]:
     file_names = sorted(file_names, reverse=True)
     ftp.close()
     pattern = re.compile(r'([0-9]{4}\.[0-9]{2}\.[0-9]{2})')
-    result = []
+    versions = []
     for file_name in file_names:
         matches = pattern.findall(file_name)
         entry: Entry = {
@@ -255,8 +259,8 @@ def get_med_rt_entry() -> List[Entry]:
             },
             'latest': file_name == file_names[0]
         }
-        result.append(entry)
-    return result
+        versions.append(entry)
+    return versions
 
 
 def get_mondo_entry() -> List[Entry]:
@@ -282,7 +286,7 @@ def get_ndf_rt_entry() -> List[Entry]:
     file_names = sorted(file_names, reverse=True)
     ftp.close()
     pattern = re.compile(r'([0-9]{4})-([0-9]{2})-([0-9]{2})')
-    result = []
+    versions = []
     for file_name in file_names:
         matches = pattern.findall(file_name)
         entry: Entry = {
@@ -292,8 +296,8 @@ def get_ndf_rt_entry() -> List[Entry]:
             },
             'latest': file_name == file_names[0]
         }
-        result.append(entry)
-    return result
+        versions.append(entry)
+    return versions
 
 
 def get_open_targets_entry() -> List[Entry]:
@@ -384,7 +388,8 @@ def get_uniprot_entry() -> List[Entry]:
     entry: Entry = {
         'version': modified_datetime.strftime('%Y.%m.%d'),
         'files': {
-            'uniprot_sprot_human.xml.gz': 'https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/taxonomic_divisions/uniprot_sprot_human.xml.gz'
+            'uniprot_sprot_human.xml.gz': 'https://ftp.uniprot.org/pub/databases/uniprot/current_release/' +
+                                          'knowledgebase/taxonomic_divisions/uniprot_sprot_human.xml.gz'
         },
         'latest': True
     }
