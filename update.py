@@ -518,7 +518,7 @@ if __name__ == '__main__':
         'UniProt': try_get_data_source_entry(get_uniprot_entry),
         'USDA-PLANTS': try_get_data_source_entry(get_usda_plants_entry),
     }
-    with open('../../result.json', 'w', encoding='utf-8') as f:
+    with open('result.json', 'w', encoding='utf-8') as f:
         json.dump(result, f, indent=2, sort_keys=True)
-    with open('../../result.min.json', 'w', encoding='utf-8') as f:
+    with open('result.min.json', 'w', encoding='utf-8') as f:
         json.dump(result, f)
