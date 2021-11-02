@@ -2,10 +2,10 @@
   "AACT": [
     {
       "files": {
-        "pipe-delimited-export.zip": "https://aact.ctti-clinicaltrials.org/static/exported_files/monthly/20211004_pipe-delimited-export.zip"
+        "pipe-delimited-export.zip": "https://aact.ctti-clinicaltrials.org/static/exported_files/monthly/20211101_pipe-delimited-export.zip"
       },
       "latest": true,
-      "version": "2021.10.04"
+      "version": "2021.11.01"
     }
   ],
   "CanadianNutrientFile": [
@@ -23,7 +23,7 @@
         "cancerdrugsdb.txt": "https://acfdata.coworks.be/cancerdrugsdb.txt"
       },
       "latest": true,
-      "version": "21.10.21"
+      "version": "21.11.01"
     }
   ],
   "DGIdb": [],
@@ -243,7 +243,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2021.11.01"
+      "version": "2021.11.02"
     }
   ],
   "GWASCatalog": [
@@ -288,7 +288,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2021.10.30"
+      "version": "2021.11.01"
     }
   ],
   "HPO": [
@@ -309,7 +309,7 @@
         "itisMySQLTables.tar.gz": "https://www.itis.gov/downloads/itisMySQLTables.tar.gz"
       },
       "latest": true,
-      "version": "2021.9.28"
+      "version": "2021.10.28"
     }
   ],
   "KEGG": [
@@ -325,15 +325,22 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2021.10.29"
+      "version": "2021.11.01"
     }
   ],
   "MED-RT": [
     {
       "files": {
-        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2021.10.04_XML.zip"
+        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2021.11.01_XML.zip"
       },
       "latest": true,
+      "version": "2021.11.01"
+    },
+    {
+      "files": {
+        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2021.10.04_XML.zip"
+      },
+      "latest": false,
       "version": "2021.10.04"
     },
     {
@@ -595,7 +602,7 @@
         "mondo.obo": "http://purl.obolibrary.org/obo/mondo.obo"
       },
       "latest": true,
-      "version": "2021.10.01"
+      "version": "2021.11.01"
     }
   ],
   "NDF-RT": [

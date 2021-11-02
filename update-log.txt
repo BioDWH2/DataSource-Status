@@ -1,4 +1,4 @@
-Updating data sources at 2021-11-01T08:20:26.495717
+Updating data sources at 2021-11-02T08:20:26.555179
 Retrieved 1 versions for data source "AACT"
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Retrieved 1 versions for data source "CancerDrugsDB"
@@ -13,7 +13,7 @@ Retrieved 1 versions for data source "HGNC"
 Retrieved 1 versions for data source "HPO"
 Retrieved 1 versions for data source "ITIS"
 Retrieved 1 versions for data source "KEGG"
-Retrieved 37 versions for data source "MED-RT"
+Retrieved 38 versions for data source "MED-RT"
 Retrieved 1 versions for data source "Mondo"
 Retrieved 107 versions for data source "NDF-RT"
 Retrieved 0 versions for data source "OpenTargets"
