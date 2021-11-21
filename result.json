@@ -243,7 +243,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2021.11.20"
+      "version": "2021.11.21"
     }
   ],
   "GWASCatalog": [
@@ -325,7 +325,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2021.11.19"
+      "version": "2021.11.20"
     }
   ],
   "MED-RT": [
