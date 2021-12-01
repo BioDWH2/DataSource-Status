@@ -243,7 +243,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2021.11.30"
+      "version": "2021.12.01"
     }
   ],
   "GWASCatalog": [
@@ -325,7 +325,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2021.11.29"
+      "version": "2021.11.30"
     }
   ],
   "MED-RT": [
@@ -1471,7 +1471,7 @@
         "UNIIs.zip": "https://fdasis.nlm.nih.gov/srs/download/srs/UNIIs.zip"
       },
       "latest": true,
-      "version": "2021.11"
+      "version": "2021.12"
     }
   ],
   "USDA-PLANTS": [
