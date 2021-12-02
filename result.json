@@ -2,10 +2,10 @@
   "AACT": [
     {
       "files": {
-        "pipe-delimited-export.zip": "https://aact.ctti-clinicaltrials.org/static/exported_files/monthly/20211101_pipe-delimited-export.zip"
+        "pipe-delimited-export.zip": "https://aact.ctti-clinicaltrials.org/static/exported_files/monthly/20211201_pipe-delimited-export.zip"
       },
       "latest": true,
-      "version": "2021.11.01"
+      "version": "2021.12.01"
     }
   ],
   "CanadianNutrientFile": [
@@ -243,7 +243,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2021.12.01"
+      "version": "2021.12.02"
     }
   ],
   "GWASCatalog": [
@@ -303,15 +303,7 @@
       "version": "2021.10.10"
     }
   ],
-  "ITIS": [
-    {
-      "files": {
-        "itisMySQLTables.tar.gz": "https://www.itis.gov/downloads/itisMySQLTables.tar.gz"
-      },
-      "latest": true,
-      "version": "2021.8.27"
-    }
-  ],
+  "ITIS": [],
   "KEGG": [
     {
       "files": {
@@ -325,7 +317,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2021.11.30"
+      "version": "2021.12.01"
     }
   ],
   "MED-RT": [
@@ -602,7 +594,7 @@
         "mondo.obo": "http://purl.obolibrary.org/obo/mondo.obo"
       },
       "latest": true,
-      "version": "2021.11.01"
+      "version": "2021.12.01"
     }
   ],
   "NDF-RT": [
