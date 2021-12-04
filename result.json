@@ -243,7 +243,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2021.12.03"
+      "version": "2021.12.04"
     }
   ],
   "GWASCatalog": [
@@ -303,7 +303,15 @@
       "version": "2021.10.10"
     }
   ],
-  "ITIS": [],
+  "ITIS": [
+    {
+      "files": {
+        "itisMySQLTables.tar.gz": "https://www.itis.gov/downloads/itisMySQLTables.tar.gz"
+      },
+      "latest": true,
+      "version": "2021.12.02"
+    }
+  ],
   "KEGG": [
     {
       "files": {
@@ -317,7 +325,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2021.12.02"
+      "version": "2021.12.03"
     }
   ],
   "MED-RT": [

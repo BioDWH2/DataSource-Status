@@ -1,4 +1,4 @@
-Updating data sources at 2021-12-03T08:20:56.172058
+Updating data sources at 2021-12-04T08:20:44.953431
 Retrieved 1 versions for data source "AACT"
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Retrieved 1 versions for data source "CancerDrugsDB"
@@ -11,7 +11,7 @@ Retrieved 1 versions for data source "GeneOntology"
 Retrieved 1 versions for data source "GWASCatalog"
 Retrieved 1 versions for data source "HGNC"
 Retrieved 1 versions for data source "HPO"
-Failed to retrieve data source "ITIS" status ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Retrieved 1 versions for data source "ITIS"
 Retrieved 1 versions for data source "KEGG"
 Retrieved 38 versions for data source "MED-RT"
 Retrieved 1 versions for data source "Mondo"
