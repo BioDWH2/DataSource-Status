@@ -243,7 +243,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2021.12.30"
+      "version": "2021.12.31"
     }
   ],
   "GWASCatalog": [
@@ -288,7 +288,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2021.12.29"
+      "version": "2021.12.30"
     }
   ],
   "HPO": [
@@ -602,7 +602,7 @@
         "mondo.obo": "http://purl.obolibrary.org/obo/mondo.obo"
       },
       "latest": true,
-      "version": "2021.12.01"
+      "version": "2021.12.30"
     }
   ],
   "NDF-RT": [
