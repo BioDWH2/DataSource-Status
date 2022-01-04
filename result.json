@@ -30,11 +30,20 @@
   "DrugBank": [
     {
       "files": {
+        "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-1-9/downloads/all-full-database",
+        "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-1-9/downloads/all-metabolite-structures",
+        "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-1-9/downloads/all-structures"
+      },
+      "latest": true,
+      "version": "5.1.9"
+    },
+    {
+      "files": {
         "drugbank_all_full_database.xml.zip": "https://go.drugbank.com/releases/5-1-8/downloads/all-full-database",
         "drugbank_all_metabolite-structures.sdf.zip": "https://go.drugbank.com/releases/5-1-8/downloads/all-metabolite-structures",
         "drugbank_all_structures.sdf.zip": "https://go.drugbank.com/releases/5-1-8/downloads/all-structures"
       },
-      "latest": true,
+      "latest": false,
       "version": "5.1.8"
     },
     {
@@ -243,7 +252,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.01.03"
+      "version": "2022.01.04"
     }
   ],
   "GWASCatalog": [
@@ -288,7 +297,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2022.01.03"
+      "version": "2022.01.04"
     }
   ],
   "HPO": [
@@ -325,15 +334,22 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2021.12.28"
+      "version": "2022.01.03"
     }
   ],
   "MED-RT": [
     {
       "files": {
-        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2021.11.01_XML.zip"
+        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2022.01.03_XML.zip"
       },
       "latest": true,
+      "version": "2022.01.03"
+    },
+    {
+      "files": {
+        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2021.11.01_XML.zip"
+      },
+      "latest": false,
       "version": "2021.11.01"
     },
     {
