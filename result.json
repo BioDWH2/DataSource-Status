@@ -252,7 +252,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.01.18"
+      "version": "2022.01.19"
     }
   ],
   "GWASCatalog": [
@@ -288,7 +288,7 @@
         "goa_human_rna.gaf.gz": "http://current.geneontology.org/annotations/goa_human_rna.gaf.gz"
       },
       "latest": true,
-      "version": "2021.12.15"
+      "version": "2022.01.13"
     }
   ],
   "HGNC": [
@@ -334,7 +334,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.01.17"
+      "version": "2022.01.18"
     }
   ],
   "MED-RT": [
@@ -1480,16 +1480,7 @@
       "version": "2015.10.21"
     }
   ],
-  "UNII": [
-    {
-      "files": {
-        "UNII_Data.zip": "https://fdasis.nlm.nih.gov/srs/download/srs/UNII_Data.zip",
-        "UNIIs.zip": "https://fdasis.nlm.nih.gov/srs/download/srs/UNIIs.zip"
-      },
-      "latest": true,
-      "version": "2022.1"
-    }
-  ],
+  "UNII": [],
   "USDA-PLANTS": [
     {
       "files": {
