@@ -252,7 +252,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.02.24"
+      "version": "2022.02.25"
     }
   ],
   "GWASCatalog": [
@@ -266,7 +266,18 @@
       "version": "2022.02.21"
     }
   ],
-  "Gene2Phenotype": [],
+  "Gene2Phenotype": [
+    {
+      "files": {
+        "CancerG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/CancerG2P.csv.gz",
+        "DDG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/DDG2P.csv.gz",
+        "EyeG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/EyeG2P.csv.gz",
+        "SkinG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/SkinG2P.csv.gz"
+      },
+      "latest": true,
+      "version": "2022.02.11"
+    }
+  ],
   "GeneOntology": [
     {
       "files": {
@@ -286,7 +297,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2022.02.23"
+      "version": "2022.02.24"
     }
   ],
   "HPO": [
@@ -323,7 +334,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.02.23"
+      "version": "2022.02.24"
     }
   ],
   "MED-RT": [

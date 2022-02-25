@@ -1,4 +1,4 @@
-Updating data sources at 2022-02-24T08:20:09.551870
+Updating data sources at 2022-02-25T08:20:03.952248
 Retrieved 1 versions for data source "AACT"
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Retrieved 1 versions for data source "CancerDrugsDB"
@@ -6,7 +6,7 @@ Retrieved 0 versions for data source "DGIdb"
 Retrieved 23 versions for data source "DrugBank"
 Retrieved 1 versions for data source "DrugCentral"
 Retrieved 1 versions for data source "EMA"
-Failed to retrieve data source "Gene2Phenotype" status list index out of range
+Retrieved 1 versions for data source "Gene2Phenotype"
 Retrieved 1 versions for data source "GeneOntology"
 Retrieved 1 versions for data source "GWASCatalog"
 Retrieved 1 versions for data source "HGNC"
