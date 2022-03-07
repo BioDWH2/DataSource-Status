@@ -1,13 +1,5 @@
 {
-  "AACT": [
-    {
-      "files": {
-        "pipe-delimited-export.zip": "https://aact.ctti-clinicaltrials.org/static/exported_files/monthly/20220228_pipe-delimited-export.zip"
-      },
-      "latest": true,
-      "version": "2022.02.28"
-    }
-  ],
+  "AACT": [],
   "CanadianNutrientFile": [
     {
       "files": {
@@ -252,7 +244,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.03.06"
+      "version": "2022.03.07"
     }
   ],
   "GWASCatalog": [
@@ -297,7 +289,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2022.03.06"
+      "version": "2022.03.07"
     }
   ],
   "HPO": [
@@ -1453,7 +1445,7 @@
         "variants.zip": "https://s3.pgkb.org/data/variants.zip"
       },
       "latest": true,
-      "version": "2022.03.05"
+      "version": "2022.03.06"
     }
   ],
   "ReDO-DB": [
