@@ -1,5 +1,5 @@
-Updating data sources at 2022-03-07T08:22:30.646052
-Failed to retrieve data source "AACT" status HTTPSConnectionPool(host='aact.ctti-clinicaltrials.org', port=443): Max retries exceeded with url: /pipe_files (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fd567a7f790>: Failed to establish a new connection: [Errno 110] Connection timed out'))
+Updating data sources at 2022-03-08T08:21:28.104496
+Retrieved 1 versions for data source "AACT"
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Retrieved 1 versions for data source "CancerDrugsDB"
 Retrieved 0 versions for data source "DGIdb"
@@ -13,7 +13,7 @@ Retrieved 1 versions for data source "HGNC"
 Retrieved 1 versions for data source "HPO"
 Retrieved 1 versions for data source "ITIS"
 Retrieved 1 versions for data source "KEGG"
-Retrieved 40 versions for data source "MED-RT"
+Retrieved 41 versions for data source "MED-RT"
 Retrieved 1 versions for data source "Mondo"
 Retrieved 107 versions for data source "NDF-RT"
 Retrieved 0 versions for data source "OpenTargets"
