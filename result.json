@@ -2,10 +2,10 @@
   "AACT": [
     {
       "files": {
-        "pipe-delimited-export.zip": "https://aact.ctti-clinicaltrials.org/static/exported_files/monthly/20220228_pipe-delimited-export.zip"
+        "pipe-delimited-export.zip": "https://aact.ctti-clinicaltrials.org/static/exported_files/monthly/20220201_pipe-delimited-export.zip"
       },
       "latest": true,
-      "version": "2022.02.28"
+      "version": "2022.02.01"
     }
   ],
   "CanadianNutrientFile": [
@@ -252,7 +252,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.03.16"
+      "version": "2022.03.17"
     }
   ],
   "GWASCatalog": [
@@ -275,7 +275,7 @@
         "SkinG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/SkinG2P.csv.gz"
       },
       "latest": true,
-      "version": "2022.02.11"
+      "version": "2022.03.16"
     }
   ],
   "GeneOntology": [
@@ -288,7 +288,7 @@
         "goa_human_rna.gaf.gz": "http://current.geneontology.org/annotations/goa_human_rna.gaf.gz"
       },
       "latest": true,
-      "version": "2022.01.13"
+      "version": "2022.03.10"
     }
   ],
   "HGNC": [
@@ -334,7 +334,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.03.15"
+      "version": "2022.03.16"
     }
   ],
   "MED-RT": [
