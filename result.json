@@ -252,7 +252,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.05.02"
+      "version": "2022.05.03"
     }
   ],
   "GWASCatalog": [
@@ -297,7 +297,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2022.05.01"
+      "version": "2022.05.02"
     }
   ],
   "HPO": [
@@ -318,7 +318,7 @@
         "itisMySQLTables.tar.gz": "https://www.itis.gov/downloads/itisMySQLTables.tar.gz"
       },
       "latest": true,
-      "version": "2022.3.28"
+      "version": "2022.4.26"
     }
   ],
   "KEGG": [
@@ -334,15 +334,22 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.04.28"
+      "version": "2022.05.02"
     }
   ],
   "MED-RT": [
     {
       "files": {
-        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2022.04.04_XML.zip"
+        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2022.05.02_XML.zip"
       },
       "latest": true,
+      "version": "2022.05.02"
+    },
+    {
+      "files": {
+        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2022.04.04_XML.zip"
+      },
+      "latest": false,
       "version": "2022.04.04"
     },
     {
@@ -639,7 +646,7 @@
         "mondo.obo": "http://purl.obolibrary.org/obo/mondo.obo"
       },
       "latest": true,
-      "version": "2022.04.04"
+      "version": "2022.05.02"
     }
   ],
   "NDF-RT": [
