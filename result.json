@@ -252,7 +252,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.05.13"
+      "version": "2022.05.14"
     }
   ],
   "GWASCatalog": [
@@ -297,7 +297,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2022.05.11"
+      "version": "2022.05.14"
     }
   ],
   "HPO": [
@@ -334,7 +334,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.05.12"
+      "version": "2022.05.13"
     }
   ],
   "MED-RT": [
@@ -1495,19 +1495,7 @@
       "version": "2022.03.17"
     }
   ],
-  "Sider": [
-    {
-      "files": {
-        "drug_atc.tsv": "http://sideeffects.embl.de/media/download/drug_atc.tsv",
-        "drug_names.tsv": "http://sideeffects.embl.de/media/download/drug_names.tsv",
-        "meddra_all_label_indications.tsv.gz": "ftp://xi.embl.de/SIDER/latest/meddra_all_label_indications.tsv.gz",
-        "meddra_all_label_se.tsv.gz": "ftp://xi.embl.de/SIDER/latest/meddra_all_label_se.tsv.gz",
-        "meddra_freq.tsv.gz": "ftp://xi.embl.de/SIDER/latest/meddra_freq.tsv.gz"
-      },
-      "latest": true,
-      "version": "2015.10.21"
-    }
-  ],
+  "Sider": [],
   "UNII": [],
   "USDA-PLANTS": [
     {
