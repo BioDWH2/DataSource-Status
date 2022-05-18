@@ -2,10 +2,10 @@
   "AACT": [
     {
       "files": {
-        "pipe-delimited-export.zip": "https://aact.ctti-clinicaltrials.org/static/exported_files/monthly/20220301_pipe-delimited-export.zip"
+        "pipe-delimited-export.zip": "https://aact.ctti-clinicaltrials.org/static/exported_files/monthly/20220401_pipe-delimited-export.zip"
       },
       "latest": true,
-      "version": "2022.03.01"
+      "version": "2022.04.01"
     }
   ],
   "CanadianNutrientFile": [
@@ -252,7 +252,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.05.17"
+      "version": "2022.05.18"
     }
   ],
   "GWASCatalog": [
@@ -297,7 +297,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2022.05.16"
+      "version": "2022.05.17"
     }
   ],
   "HPO": [
@@ -334,7 +334,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.05.16"
+      "version": "2022.05.17"
     }
   ],
   "MED-RT": [
@@ -1474,7 +1474,7 @@
         "variants.zip": "https://s3.pgkb.org/data/variants.zip"
       },
       "latest": true,
-      "version": "2022.05.05"
+      "version": "2022.05.17"
     }
   ],
   "ReDO-DB": [
