@@ -252,7 +252,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.06.04"
+      "version": "2022.06.05"
     }
   ],
   "GWASCatalog": [
@@ -297,7 +297,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2022.06.03"
+      "version": "2022.06.04"
     }
   ],
   "HPO": [
@@ -334,7 +334,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.06.03"
+      "version": "2022.06.04"
     }
   ],
   "MED-RT": [
@@ -1496,16 +1496,7 @@
     }
   ],
   "Sider": [],
-  "UNII": [
-    {
-      "files": {
-        "UNII_Data.zip": "https://fdasis.nlm.nih.gov/srs/download/srs/UNII_Data.zip",
-        "UNIIs.zip": "https://fdasis.nlm.nih.gov/srs/download/srs/UNIIs.zip"
-      },
-      "latest": true,
-      "version": "2022.6"
-    }
-  ],
+  "UNII": [],
   "USDA-PLANTS": [
     {
       "files": {

@@ -1,4 +1,4 @@
-Updating data sources at 2022-06-04T08:20:57.046266
+Updating data sources at 2022-06-05T08:21:13.693434
 Retrieved 1 versions for data source "AACT"
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Retrieved 1 versions for data source "CancerDrugsDB"
@@ -22,6 +22,6 @@ Retrieved 1 versions for data source "PharmGKB"
 Retrieved 1 versions for data source "ReDO-DB"
 Retrieved 1 versions for data source "ReDOTrialsDB"
 Failed to retrieve data source "Sider" status [Errno 110] Connection timed out
-Retrieved 1 versions for data source "UNII"
+Failed to retrieve data source "UNII" status list index out of range
 Retrieved 1 versions for data source "UniProt"
 Retrieved 1 versions for data source "USDA-PLANTS"
