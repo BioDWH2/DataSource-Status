@@ -252,7 +252,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.06.16"
+      "version": "2022.06.17"
     }
   ],
   "GWASCatalog": [
@@ -263,7 +263,7 @@
         "gwas_catalog_studies.tsv": "https://www.ebi.ac.uk/gwas/api/search/downloads/studies_alternative"
       },
       "latest": true,
-      "version": "2022.05.17"
+      "version": "2022.06.15"
     }
   ],
   "Gene2Phenotype": [
@@ -334,7 +334,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.06.15"
+      "version": "2022.06.16"
     }
   ],
   "MED-RT": [
