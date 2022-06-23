@@ -1,7 +1,7 @@
-Updating data sources at 2022-06-22T08:27:16.004434
+Updating data sources at 2022-06-23T08:26:08.319979
 Retrieved 1 versions for data source "AACT"
 Retrieved 1 versions for data source "CanadianNutrientFile"
-Retrieved 1 versions for data source "CancerDrugsDB"
+Failed to retrieve data source "CancerDrugsDB" status 'utf-8' codec can't decode byte 0xa0 in position 56668: invalid start byte
 Retrieved 0 versions for data source "DGIdb"
 Retrieved 23 versions for data source "DrugBank"
 Retrieved 1 versions for data source "DrugCentral"

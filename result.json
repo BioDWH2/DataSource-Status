@@ -17,15 +17,7 @@
       "version": "2016.06.03"
     }
   ],
-  "CancerDrugsDB": [
-    {
-      "files": {
-        "cancerdrugsdb.txt": "https://acfdata.coworks.be/cancerdrugsdb.txt"
-      },
-      "latest": true,
-      "version": "22.02.01"
-    }
-  ],
+  "CancerDrugsDB": [],
   "DGIdb": [],
   "DrugBank": [
     {
@@ -252,7 +244,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.06.22"
+      "version": "2022.06.23"
     }
   ],
   "GWASCatalog": [
@@ -288,7 +280,7 @@
         "goa_human_rna.gaf.gz": "http://current.geneontology.org/annotations/goa_human_rna.gaf.gz"
       },
       "latest": true,
-      "version": "2022.05.16"
+      "version": "2022.06.15"
     }
   ],
   "HGNC": [
@@ -297,7 +289,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2022.06.19"
+      "version": "2022.06.23"
     }
   ],
   "HPO": [
@@ -334,7 +326,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.06.21"
+      "version": "2022.06.22"
     }
   ],
   "MED-RT": [
