@@ -244,7 +244,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.07.05"
+      "version": "2022.07.06"
     }
   ],
   "GWASCatalog": [
@@ -280,7 +280,7 @@
         "goa_human_rna.gaf.gz": "http://current.geneontology.org/annotations/goa_human_rna.gaf.gz"
       },
       "latest": true,
-      "version": "2022.06.15"
+      "version": "2022.07.01"
     }
   ],
   "HGNC": [
@@ -289,7 +289,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2022.07.05"
+      "version": "2022.07.06"
     }
   ],
   "HPO": [
@@ -326,15 +326,22 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.07.04"
+      "version": "2022.07.05"
     }
   ],
   "MED-RT": [
     {
       "files": {
-        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2022.06.06_XML.zip"
+        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2022.07.05_XML.zip"
       },
       "latest": true,
+      "version": "2022.07.05"
+    },
+    {
+      "files": {
+        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2022.06.06_XML.zip"
+      },
+      "latest": false,
       "version": "2022.06.06"
     },
     {
@@ -1473,7 +1480,7 @@
         "variants.zip": "https://s3.pgkb.org/data/variants.zip"
       },
       "latest": true,
-      "version": "2022.06.05"
+      "version": "2022.07.05"
     }
   ],
   "ReDO-DB": [
