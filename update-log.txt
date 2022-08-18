@@ -1,10 +1,10 @@
-Updating data sources at 2022-08-17T08:25:14.059539
+Updating data sources at 2022-08-18T08:23:23.032239
 Failed to retrieve data source "AACT" status list index out of range
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Failed to retrieve data source "CancerDrugsDB" status 'utf-8' codec can't decode byte 0xa0 in position 56668: invalid start byte
 Retrieved 0 versions for data source "DGIdb"
 Retrieved 23 versions for data source "DrugBank"
-Retrieved 1 versions for data source "DrugCentral"
+Failed to retrieve data source "DrugCentral" status HTTPSConnectionPool(host='drugcentral.org', port=443): Max retries exceeded with url: /ActiveDownload (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1131)')))
 Retrieved 1 versions for data source "EMA"
 Retrieved 1 versions for data source "Gene2Phenotype"
 Retrieved 1 versions for data source "GeneOntology"
