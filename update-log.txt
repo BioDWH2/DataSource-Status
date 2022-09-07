@@ -1,4 +1,4 @@
-Updating data sources at 2022-09-06T08:25:34.042924
+Updating data sources at 2022-09-07T08:27:27.289933
 Failed to retrieve data source "AACT" status list index out of range
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Failed to retrieve data source "CancerDrugsDB" status 'utf-8' codec can't decode byte 0xa0 in position 56668: invalid start byte
@@ -13,7 +13,7 @@ Retrieved 1 versions for data source "HGNC"
 Retrieved 1 versions for data source "HPO"
 Retrieved 1 versions for data source "ITIS"
 Retrieved 1 versions for data source "KEGG"
-Retrieved 45 versions for data source "MED-RT"
+Retrieved 46 versions for data source "MED-RT"
 Retrieved 1 versions for data source "Mondo"
 Retrieved 107 versions for data source "NDF-RT"
 Retrieved 0 versions for data source "OpenTargets"
