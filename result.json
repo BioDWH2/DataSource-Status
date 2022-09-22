@@ -236,7 +236,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.09.21"
+      "version": "2022.09.22"
     }
   ],
   "GWASCatalog": [
@@ -272,7 +272,7 @@
         "goa_human_rna.gaf.gz": "http://current.geneontology.org/annotations/goa_human_rna.gaf.gz"
       },
       "latest": true,
-      "version": "2022.07.01"
+      "version": "2022.09.19"
     }
   ],
   "HGNC": [
@@ -281,7 +281,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2022.09.16"
+      "version": "2022.09.21"
     }
   ],
   "HPO": [
@@ -318,7 +318,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.09.20"
+      "version": "2022.09.21"
     }
   ],
   "MED-RT": [
