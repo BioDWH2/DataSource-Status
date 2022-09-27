@@ -220,15 +220,7 @@
       "version": "4.5.0"
     }
   ],
-  "DrugCentral": [
-    {
-      "files": {
-        "drugcentral.dump.sql.gz": "https://unmtid-shinyapps.net/download/drugcentral.dump.07_22_2022.sql.gz"
-      },
-      "latest": true,
-      "version": "2022.07.22"
-    }
-  ],
+  "DrugCentral": [],
   "EMA": [
     {
       "files": {
@@ -236,7 +228,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.09.26"
+      "version": "2022.09.27"
     }
   ],
   "GWASCatalog": [
@@ -281,7 +273,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2022.09.21"
+      "version": "2022.09.26"
     }
   ],
   "HPO": [
@@ -318,7 +310,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.09.23"
+      "version": "2022.09.26"
     }
   ],
   "MED-RT": [
