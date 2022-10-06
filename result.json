@@ -228,7 +228,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.10.05"
+      "version": "2022.10.06"
     }
   ],
   "GWASCatalog": [
@@ -251,7 +251,7 @@
         "SkinG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/SkinG2P.csv.gz"
       },
       "latest": true,
-      "version": "2022.09.07"
+      "version": "2022.10.05"
     }
   ],
   "GeneOntology": [
@@ -273,7 +273,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2022.10.04"
+      "version": "2022.10.06"
     }
   ],
   "HPO": [
@@ -285,7 +285,7 @@
         "phenotype_to_genes.txt": "http://purl.obolibrary.org/obo/hp/hpoa/phenotype_to_genes.txt"
       },
       "latest": true,
-      "version": "2022.06.11"
+      "version": "2022.10.05"
     }
   ],
   "ITIS": [
@@ -310,7 +310,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.10.04"
+      "version": "2022.10.05"
     }
   ],
   "MED-RT": [
@@ -1491,7 +1491,7 @@
         "variants.zip": "https://s3.pgkb.org/data/variants.zip"
       },
       "latest": true,
-      "version": "2022.09.13"
+      "version": "2022.10.05"
     }
   ],
   "ReDO-DB": [
