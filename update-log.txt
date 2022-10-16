@@ -1,4 +1,4 @@
-Updating data sources at 2022-10-15T08:29:19.695616
+Updating data sources at 2022-10-16T08:28:04.123362
 Failed to retrieve data source "AACT" status list index out of range
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Failed to retrieve data source "CancerDrugsDB" status 'utf-8' codec can't decode byte 0xa0 in position 56668: invalid start byte
@@ -9,7 +9,7 @@ Retrieved 1 versions for data source "EMA"
 Retrieved 1 versions for data source "Gene2Phenotype"
 Retrieved 1 versions for data source "GeneOntology"
 Retrieved 1 versions for data source "GWASCatalog"
-Retrieved 1 versions for data source "HGNC"
+Failed to retrieve data source "HGNC" status 421 There are too many connected users, please try later.
 Retrieved 1 versions for data source "HPO"
 Retrieved 1 versions for data source "ITIS"
 Retrieved 1 versions for data source "KEGG"
