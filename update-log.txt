@@ -1,7 +1,7 @@
-Updating data sources at 2022-11-14T08:27:29.551748
+Updating data sources at 2022-11-15T08:25:41.549682
 Failed to retrieve data source "AACT" status list index out of range
 Retrieved 1 versions for data source "CanadianNutrientFile"
-Failed to retrieve data source "CancerDrugsDB" status 'utf-8' codec can't decode byte 0xa0 in position 56668: invalid start byte
+Retrieved 1 versions for data source "CancerDrugsDB"
 Retrieved 0 versions for data source "DGIdb"
 Retrieved 23 versions for data source "DrugBank"
 Failed to retrieve data source "DrugCentral" status list index out of range
