@@ -1,4 +1,4 @@
-Updating data sources at 2022-12-03T08:19:45.678753
+Updating data sources at 2022-12-04T08:19:41.943040
 Failed to retrieve data source "AACT" status list index out of range
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Retrieved 1 versions for data source "CancerDrugsDB"
@@ -13,15 +13,15 @@ Retrieved 1 versions for data source "HGNC"
 Retrieved 1 versions for data source "HPO"
 Retrieved 1 versions for data source "ITIS"
 Retrieved 1 versions for data source "KEGG"
-Failed to retrieve data source "MED-RT" status [Errno 110] Connection timed out
+Retrieved 48 versions for data source "MED-RT"
 Retrieved 1 versions for data source "Mondo"
-Failed to retrieve data source "NDF-RT" status [Errno 110] Connection timed out
+Retrieved 107 versions for data source "NDF-RT"
 Retrieved 0 versions for data source "OpenTargets"
 Retrieved 5 versions for data source "PathwayCommons"
 Retrieved 1 versions for data source "PharmGKB"
 Failed to retrieve data source "ReDO-DB" status 'utf-8' codec can't decode byte 0xa0 in position 132817: invalid start byte
 Retrieved 1 versions for data source "ReDOTrialsDB"
 Failed to retrieve data source "Sider" status [Errno 110] Connection timed out
-Failed to retrieve data source "UNII" status list index out of range
+Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='precision.fda.gov', port=443): Max retries exceeded with url: /uniisearch/archive (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1131)')))
 Retrieved 1 versions for data source "UniProt"
 Retrieved 1 versions for data source "USDA-PLANTS"
