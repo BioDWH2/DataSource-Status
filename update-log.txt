@@ -1,4 +1,4 @@
-Updating data sources at 2022-12-05T08:21:44.249807
+Updating data sources at 2022-12-06T08:21:04.902553
 Failed to retrieve data source "AACT" status list index out of range
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Retrieved 1 versions for data source "CancerDrugsDB"
@@ -22,6 +22,6 @@ Retrieved 1 versions for data source "PharmGKB"
 Failed to retrieve data source "ReDO-DB" status 'utf-8' codec can't decode byte 0xa0 in position 132817: invalid start byte
 Retrieved 1 versions for data source "ReDOTrialsDB"
 Failed to retrieve data source "Sider" status [Errno 110] Connection timed out
-Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='precision.fda.gov', port=443): Max retries exceeded with url: /uniisearch/archive (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1131)')))
+Failed to retrieve data source "UNII" status list index out of range
 Retrieved 1 versions for data source "UniProt"
 Retrieved 1 versions for data source "USDA-PLANTS"
