@@ -1,4 +1,4 @@
-Updating data sources at 2022-12-06T08:21:04.902553
+Updating data sources at 2022-12-07T08:21:05.906812
 Failed to retrieve data source "AACT" status list index out of range
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Retrieved 1 versions for data source "CancerDrugsDB"
@@ -17,7 +17,7 @@ Retrieved 48 versions for data source "MED-RT"
 Retrieved 1 versions for data source "Mondo"
 Retrieved 107 versions for data source "NDF-RT"
 Retrieved 0 versions for data source "OpenTargets"
-Retrieved 5 versions for data source "PathwayCommons"
+Retrieved 4 versions for data source "PathwayCommons"
 Retrieved 1 versions for data source "PharmGKB"
 Failed to retrieve data source "ReDO-DB" status 'utf-8' codec can't decode byte 0xa0 in position 132817: invalid start byte
 Retrieved 1 versions for data source "ReDOTrialsDB"

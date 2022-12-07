@@ -236,7 +236,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2022.12.06"
+      "version": "2022.12.07"
     }
   ],
   "GWASCatalog": [
@@ -272,7 +272,7 @@
         "goa_human_rna.gaf.gz": "http://current.geneontology.org/annotations/goa_human_rna.gaf.gz"
       },
       "latest": true,
-      "version": "2022.11.03"
+      "version": "2022.12.04"
     }
   ],
   "HGNC": [
@@ -281,7 +281,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2022.12.06"
+      "version": "2022.12.07"
     }
   ],
   "HPO": [
@@ -318,7 +318,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2022.12.05"
+      "version": "2022.12.06"
     }
   ],
   "MED-RT": [
@@ -1423,19 +1423,6 @@
   "PathwayCommons": [
     {
       "files": {
-        "PathwayCommons.All.BIOPAX.owl.gz": "https://www.pathwaycommons.org/archives/PC2/v13/PathwayCommons13.All.BIOPAX.owl.gz",
-        "PathwayCommons.All.hgnc.gmt.gz": "https://www.pathwaycommons.org/archives/PC2/v13/PathwayCommons13.All.hgnc.gmt.gz",
-        "PathwayCommons.All.hgnc.sif.gz": "https://www.pathwaycommons.org/archives/PC2/v13/PathwayCommons13.All.hgnc.sif.gz",
-        "PathwayCommons.All.hgnc.txt.gz": "https://www.pathwaycommons.org/archives/PC2/v13/PathwayCommons13.All.hgnc.txt.gz",
-        "PathwayCommons.All.uniprot.gmt.gz": "https://www.pathwaycommons.org/archives/PC2/v13/PathwayCommons13.All.uniprot.gmt.gz",
-        "datasources.txt": "https://www.pathwaycommons.org/archives/PC2/v13/datasources.txt",
-        "pathways.txt.gz": "https://www.pathwaycommons.org/archives/PC2/v13/pathways.txt.gz"
-      },
-      "latest": true,
-      "version": "13"
-    },
-    {
-      "files": {
         "PathwayCommons.All.BIOPAX.owl.gz": "https://www.pathwaycommons.org/archives/PC2/v12/PathwayCommons12.All.BIOPAX.owl.gz",
         "PathwayCommons.All.hgnc.gmt.gz": "https://www.pathwaycommons.org/archives/PC2/v12/PathwayCommons12.All.hgnc.gmt.gz",
         "PathwayCommons.All.hgnc.sif.gz": "https://www.pathwaycommons.org/archives/PC2/v12/PathwayCommons12.All.hgnc.sif.gz",
@@ -1444,7 +1431,7 @@
         "datasources.txt": "https://www.pathwaycommons.org/archives/PC2/v12/datasources.txt",
         "pathways.txt.gz": "https://www.pathwaycommons.org/archives/PC2/v12/pathways.txt.gz"
       },
-      "latest": false,
+      "latest": true,
       "version": "12"
     },
     {
