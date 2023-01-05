@@ -1,9 +1,9 @@
-Updating data sources at 2023-01-04T08:20:09.230816
+Updating data sources at 2023-01-05T08:21:05.811233
 Failed to retrieve data source "AACT" status list index out of range
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Retrieved 1 versions for data source "CancerDrugsDB"
 Retrieved 0 versions for data source "DGIdb"
-Retrieved 23 versions for data source "DrugBank"
+Retrieved 24 versions for data source "DrugBank"
 Failed to retrieve data source "DrugCentral" status list index out of range
 Retrieved 1 versions for data source "EMA"
 Retrieved 1 versions for data source "Gene2Phenotype"
@@ -13,7 +13,7 @@ Retrieved 1 versions for data source "HGNC"
 Retrieved 1 versions for data source "HPO"
 Retrieved 1 versions for data source "ITIS"
 Retrieved 1 versions for data source "KEGG"
-Retrieved 48 versions for data source "MED-RT"
+Retrieved 49 versions for data source "MED-RT"
 Retrieved 1 versions for data source "Mondo"
 Retrieved 107 versions for data source "NDF-RT"
 Retrieved 0 versions for data source "OpenTargets"
