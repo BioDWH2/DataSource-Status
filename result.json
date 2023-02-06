@@ -245,7 +245,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2023.02.05"
+      "version": "2023.02.06"
     }
   ],
   "GWASCatalog": [
@@ -290,7 +290,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2023.02.05"
+      "version": "2023.02.06"
     }
   ],
   "HPO": [
@@ -327,7 +327,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2023.02.03"
+      "version": "2023.02.05"
     }
   ],
   "MED-RT": [
@@ -1509,7 +1509,7 @@
         "variants.zip": "https://s3.pgkb.org/data/variants.zip"
       },
       "latest": true,
-      "version": "2023.01.05"
+      "version": "2023.02.05"
     }
   ],
   "ReDO-DB": [],
