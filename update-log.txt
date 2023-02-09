@@ -1,5 +1,5 @@
-Updating data sources at 2023-02-08T08:21:12.906780
-Failed to retrieve data source "AACT" status HTTPSConnectionPool(host='aact.ctti-clinicaltrials.org', port=443): Max retries exceeded with url: /pipe_files (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1131)')))
+Updating data sources at 2023-02-09T08:20:56.558420
+Failed to retrieve data source "AACT" status list index out of range
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Retrieved 1 versions for data source "CancerDrugsDB"
 Retrieved 0 versions for data source "DGIdb"
@@ -22,6 +22,6 @@ Retrieved 1 versions for data source "PharmGKB"
 Failed to retrieve data source "ReDO-DB" status 'utf-8' codec can't decode byte 0xa0 in position 132817: invalid start byte
 Retrieved 1 versions for data source "ReDOTrialsDB"
 Failed to retrieve data source "Sider" status [Errno 110] Connection timed out
-Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f1f2b3e96a0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9a43cb1100>: Failed to establish a new connection: [Errno -2] Name or service not known'))
 Retrieved 1 versions for data source "UniProt"
 Retrieved 1 versions for data source "USDA-PLANTS"
