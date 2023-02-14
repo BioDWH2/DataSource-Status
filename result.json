@@ -9,15 +9,7 @@
       "version": "2016.06.03"
     }
   ],
-  "CancerDrugsDB": [
-    {
-      "files": {
-        "cancerdrugsdb.txt": "https://acfdata.coworks.be/cancerdrugsdb.txt"
-      },
-      "latest": true,
-      "version": "22.11.14"
-    }
-  ],
+  "CancerDrugsDB": [],
   "DGIdb": [],
   "DrugBank": [
     {
@@ -245,7 +237,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2023.02.13"
+      "version": "2023.02.14"
     }
   ],
   "GWASCatalog": [
@@ -327,7 +319,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2023.02.11"
+      "version": "2023.02.13"
     }
   ],
   "MED-RT": [
