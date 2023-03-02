@@ -237,7 +237,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2023.03.01"
+      "version": "2023.03.02"
     }
   ],
   "GWASCatalog": [
@@ -260,7 +260,7 @@
         "SkinG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/SkinG2P.csv.gz"
       },
       "latest": true,
-      "version": "2023.02.28"
+      "version": "2023.03.01"
     }
   ],
   "GeneOntology": [
@@ -282,7 +282,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2023.02.28"
+      "version": "2023.03.02"
     }
   ],
   "HPO": [
@@ -319,7 +319,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2023.02.28"
+      "version": "2023.03.01"
     }
   ],
   "MED-RT": [
@@ -680,7 +680,7 @@
         "mondo.obo": "http://purl.obolibrary.org/obo/mondo.obo"
       },
       "latest": true,
-      "version": "2023.02.06"
+      "version": "2023.03.01"
     }
   ],
   "NDF-RT": [
@@ -1538,7 +1538,7 @@
         "uniprot_sprot_human.xml.gz": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/taxonomic_divisions/uniprot_sprot_human.xml.gz"
       },
       "latest": true,
-      "version": "2022.12.14"
+      "version": "2023.03.01"
     }
   ]
 }
