@@ -237,7 +237,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2023.04.05"
+      "version": "2023.04.06"
     }
   ],
   "GWASCatalog": [
@@ -294,7 +294,7 @@
         "phenotype_to_genes.txt": "http://purl.obolibrary.org/obo/hp/hpoa/phenotype_to_genes.txt"
       },
       "latest": true,
-      "version": "2023.01.27"
+      "version": "2023.04.05"
     }
   ],
   "ITIS": [
@@ -319,7 +319,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2023.04.04"
+      "version": "2023.04.05"
     }
   ],
   "MED-RT": [
@@ -687,7 +687,7 @@
         "mondo.obo": "http://purl.obolibrary.org/obo/mondo.obo"
       },
       "latest": true,
-      "version": "2023.03.01"
+      "version": "2023.04.04"
     }
   ],
   "NDF-RT": [
@@ -1515,7 +1515,7 @@
         "variants.zip": "https://s3.pgkb.org/data/variants.zip"
       },
       "latest": true,
-      "version": "2023.03.05"
+      "version": "2023.04.05"
     }
   ],
   "ReDO-DB": [],
