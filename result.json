@@ -9,7 +9,15 @@
       "version": "2016.06.03"
     }
   ],
-  "CancerDrugsDB": [],
+  "CancerDrugsDB": [
+    {
+      "files": {
+        "cancerdrugsdb.txt": "https://acfdata.coworks.be/cancerdrugsdb.txt"
+      },
+      "latest": true,
+      "version": "23.08.02"
+    }
+  ],
   "DGIdb": [],
   "DrugBank": [
     {
@@ -237,7 +245,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2023.08.01"
+      "version": "2023.08.02"
     }
   ],
   "GWASCatalog": [
@@ -248,7 +256,7 @@
         "gwas_catalog_studies.tsv": "https://www.ebi.ac.uk/gwas/api/search/downloads/studies_alternative"
       },
       "latest": true,
-      "version": "2023.07.20"
+      "version": "2023.07.29"
     }
   ],
   "Gene2Phenotype": [
@@ -319,7 +327,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2023.07.28"
+      "version": "2023.08.01"
     }
   ],
   "MED-RT": [
@@ -715,7 +723,7 @@
         "mondo.obo": "http://purl.obolibrary.org/obo/mondo.obo"
       },
       "latest": true,
-      "version": "2023.07.03"
+      "version": "2023.08.02"
     }
   ],
   "NDF-RT": [
