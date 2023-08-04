@@ -245,7 +245,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2023.08.03"
+      "version": "2023.08.04"
     }
   ],
   "GWASCatalog": [
@@ -327,7 +327,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2023.08.02"
+      "version": "2023.08.03"
     }
   ],
   "MED-RT": [
@@ -1554,7 +1554,15 @@
       "version": "2023.07.05"
     }
   ],
-  "ReDO-DB": [],
+  "ReDO-DB": [
+    {
+      "files": {
+        "redo_db.txt": "https://acfdata.coworks.be/redo_db.txt"
+      },
+      "latest": true,
+      "version": "23.08.03"
+    }
+  ],
   "ReDOTrialsDB": [
     {
       "files": {
