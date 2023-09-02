@@ -245,7 +245,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2023.09.01"
+      "version": "2023.09.02"
     }
   ],
   "GWASCatalog": [
@@ -256,7 +256,7 @@
         "gwas_catalog_studies.tsv": "https://www.ebi.ac.uk/gwas/api/search/downloads/studies_alternative"
       },
       "latest": true,
-      "version": "2023.07.29"
+      "version": "2023.08.26"
     }
   ],
   "Gene2Phenotype": [
@@ -290,7 +290,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2023.08.31"
+      "version": "2023.09.01"
     }
   ],
   "HPO": [
@@ -302,7 +302,7 @@
         "phenotype_to_genes.txt": "http://purl.obolibrary.org/obo/hp/hpoa/phenotype_to_genes.txt"
       },
       "latest": true,
-      "version": "2023.06.17"
+      "version": "2023.09.01"
     }
   ],
   "ITIS": [
@@ -311,7 +311,7 @@
         "itisMySQLTables.tar.gz": "https://www.itis.gov/downloads/itisMySQLTables.tar.gz"
       },
       "latest": true,
-      "version": "2023.7.26"
+      "version": "2023.8.31"
     }
   ],
   "KEGG": [
