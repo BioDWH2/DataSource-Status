@@ -245,7 +245,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2023.11.08"
+      "version": "2023.11.09"
     }
   ],
   "GWASCatalog": [
@@ -268,7 +268,7 @@
         "SkinG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/SkinG2P.csv.gz"
       },
       "latest": true,
-      "version": "2023.08.16"
+      "version": "2023.11.08"
     }
   ],
   "GeneOntology": [
@@ -1610,7 +1610,7 @@
         "uniprot_sprot_human.xml.gz": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/taxonomic_divisions/uniprot_sprot_human.xml.gz"
       },
       "latest": true,
-      "version": "2023.09.13"
+      "version": "2023.11.08"
     }
   ]
 }
