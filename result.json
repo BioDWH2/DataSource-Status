@@ -254,7 +254,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2024.01.10"
+      "version": "2024.01.11"
     }
   ],
   "GWASCatalog": [
@@ -277,7 +277,7 @@
         "SkinG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/SkinG2P.csv.gz"
       },
       "latest": true,
-      "version": "2024.01.08"
+      "version": "2024.01.10"
     }
   ],
   "GeneOntology": [
@@ -299,7 +299,7 @@
         "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
       },
       "latest": true,
-      "version": "2024.01.10"
+      "version": "2024.01.11"
     }
   ],
   "HPO": [
