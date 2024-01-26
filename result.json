@@ -254,7 +254,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2024.01.25"
+      "version": "2024.01.26"
     }
   ],
   "GWASCatalog": [
@@ -293,15 +293,7 @@
       "version": "2024.01.17"
     }
   ],
-  "HGNC": [
-    {
-      "files": {
-        "hgnc_complete_set.txt": "https://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt"
-      },
-      "latest": true,
-      "version": "2024.01.25"
-    }
-  ],
+  "HGNC": [],
   "HPO": [
     {
       "files": {
@@ -1626,7 +1618,7 @@
         "uniprot_sprot_human.xml.gz": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/taxonomic_divisions/uniprot_sprot_human.xml.gz"
       },
       "latest": true,
-      "version": "2023.11.08"
+      "version": "2024.01.24"
     }
   ]
 }
