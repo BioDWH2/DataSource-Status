@@ -246,7 +246,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2024.04.05"
+      "version": "2024.04.06"
     }
   ],
   "GWASCatalog": [
@@ -306,15 +306,7 @@
       "version": "2024.04.04"
     }
   ],
-  "ITIS": [
-    {
-      "files": {
-        "itisMySQLTables.tar.gz": "https://www.itis.gov/downloads/itisMySQLTables.tar.gz"
-      },
-      "latest": true,
-      "version": "2024.2.28"
-    }
-  ],
+  "ITIS": [],
   "KEGG": [
     {
       "files": {
