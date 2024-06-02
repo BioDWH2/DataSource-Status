@@ -246,7 +246,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2024.06.01"
+      "version": "2024.06.02"
     }
   ],
   "GWASCatalog": [
@@ -343,7 +343,73 @@
   ],
   "NDF-RT": [],
   "OpenTargets": [],
-  "PathwayCommons": [],
+  "PathwayCommons": [
+    {
+      "files": {
+        "PathwayCommons.All.BIOPAX.owl.gz": "https://www.pathwaycommons.org/archives/PC2/v14/PathwayCommons14.All.BIOPAX.owl.gz",
+        "PathwayCommons.All.hgnc.gmt.gz": "https://www.pathwaycommons.org/archives/PC2/v14/PathwayCommons14.All.hgnc.gmt.gz",
+        "PathwayCommons.All.hgnc.sif.gz": "https://www.pathwaycommons.org/archives/PC2/v14/PathwayCommons14.All.hgnc.sif.gz",
+        "PathwayCommons.All.hgnc.txt.gz": "https://www.pathwaycommons.org/archives/PC2/v14/PathwayCommons14.All.hgnc.txt.gz",
+        "PathwayCommons.All.uniprot.gmt.gz": "https://www.pathwaycommons.org/archives/PC2/v14/PathwayCommons14.All.uniprot.gmt.gz",
+        "datasources.txt": "https://www.pathwaycommons.org/archives/PC2/v14/datasources.txt",
+        "pathways.txt.gz": "https://www.pathwaycommons.org/archives/PC2/v14/pathways.txt.gz"
+      },
+      "latest": true,
+      "version": "14"
+    },
+    {
+      "files": {
+        "PathwayCommons.All.BIOPAX.owl.gz": "https://www.pathwaycommons.org/archives/PC2/v12/PathwayCommons12.All.BIOPAX.owl.gz",
+        "PathwayCommons.All.hgnc.gmt.gz": "https://www.pathwaycommons.org/archives/PC2/v12/PathwayCommons12.All.hgnc.gmt.gz",
+        "PathwayCommons.All.hgnc.sif.gz": "https://www.pathwaycommons.org/archives/PC2/v12/PathwayCommons12.All.hgnc.sif.gz",
+        "PathwayCommons.All.hgnc.txt.gz": "https://www.pathwaycommons.org/archives/PC2/v12/PathwayCommons12.All.hgnc.txt.gz",
+        "PathwayCommons.All.uniprot.gmt.gz": "https://www.pathwaycommons.org/archives/PC2/v12/PathwayCommons12.All.uniprot.gmt.gz",
+        "datasources.txt": "https://www.pathwaycommons.org/archives/PC2/v12/datasources.txt",
+        "pathways.txt.gz": "https://www.pathwaycommons.org/archives/PC2/v12/pathways.txt.gz"
+      },
+      "latest": false,
+      "version": "12"
+    },
+    {
+      "files": {
+        "PathwayCommons.All.BIOPAX.owl.gz": "https://www.pathwaycommons.org/archives/PC2/v11/PathwayCommons11.All.BIOPAX.owl.gz",
+        "PathwayCommons.All.hgnc.gmt.gz": "https://www.pathwaycommons.org/archives/PC2/v11/PathwayCommons11.All.hgnc.gmt.gz",
+        "PathwayCommons.All.hgnc.sif.gz": "https://www.pathwaycommons.org/archives/PC2/v11/PathwayCommons11.All.hgnc.sif.gz",
+        "PathwayCommons.All.hgnc.txt.gz": "https://www.pathwaycommons.org/archives/PC2/v11/PathwayCommons11.All.hgnc.txt.gz",
+        "PathwayCommons.All.uniprot.gmt.gz": "https://www.pathwaycommons.org/archives/PC2/v11/PathwayCommons11.All.uniprot.gmt.gz",
+        "datasources.txt": "https://www.pathwaycommons.org/archives/PC2/v11/datasources.txt",
+        "pathways.txt.gz": "https://www.pathwaycommons.org/archives/PC2/v11/pathways.txt.gz"
+      },
+      "latest": false,
+      "version": "11"
+    },
+    {
+      "files": {
+        "PathwayCommons.All.BIOPAX.owl.gz": "https://www.pathwaycommons.org/archives/PC2/v10/PathwayCommons10.All.BIOPAX.owl.gz",
+        "PathwayCommons.All.hgnc.gmt.gz": "https://www.pathwaycommons.org/archives/PC2/v10/PathwayCommons10.All.hgnc.gmt.gz",
+        "PathwayCommons.All.hgnc.sif.gz": "https://www.pathwaycommons.org/archives/PC2/v10/PathwayCommons10.All.hgnc.sif.gz",
+        "PathwayCommons.All.hgnc.txt.gz": "https://www.pathwaycommons.org/archives/PC2/v10/PathwayCommons10.All.hgnc.txt.gz",
+        "PathwayCommons.All.uniprot.gmt.gz": "https://www.pathwaycommons.org/archives/PC2/v10/PathwayCommons10.All.uniprot.gmt.gz",
+        "datasources.txt": "https://www.pathwaycommons.org/archives/PC2/v10/datasources.txt",
+        "pathways.txt.gz": "https://www.pathwaycommons.org/archives/PC2/v10/pathways.txt.gz"
+      },
+      "latest": false,
+      "version": "10"
+    },
+    {
+      "files": {
+        "PathwayCommons.All.BIOPAX.owl.gz": "https://www.pathwaycommons.org/archives/PC2/v9/PathwayCommons9.All.BIOPAX.owl.gz",
+        "PathwayCommons.All.hgnc.gmt.gz": "https://www.pathwaycommons.org/archives/PC2/v9/PathwayCommons9.All.hgnc.gmt.gz",
+        "PathwayCommons.All.hgnc.sif.gz": "https://www.pathwaycommons.org/archives/PC2/v9/PathwayCommons9.All.hgnc.sif.gz",
+        "PathwayCommons.All.hgnc.txt.gz": "https://www.pathwaycommons.org/archives/PC2/v9/PathwayCommons9.All.hgnc.txt.gz",
+        "PathwayCommons.All.uniprot.gmt.gz": "https://www.pathwaycommons.org/archives/PC2/v9/PathwayCommons9.All.uniprot.gmt.gz",
+        "datasources.txt": "https://www.pathwaycommons.org/archives/PC2/v9/datasources.txt",
+        "pathways.txt.gz": "https://www.pathwaycommons.org/archives/PC2/v9/pathways.txt.gz"
+      },
+      "latest": false,
+      "version": "9"
+    }
+  ],
   "PharmGKB": [
     {
       "files": {
