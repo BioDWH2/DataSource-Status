@@ -246,7 +246,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2024.06.05"
+      "version": "2024.06.06"
     }
   ],
   "GWASCatalog": [
@@ -269,7 +269,7 @@
         "SkinG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/SkinG2P.csv.gz"
       },
       "latest": true,
-      "version": "2024.05.16"
+      "version": "2024.06.05"
     }
   ],
   "GeneOntology": [
