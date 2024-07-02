@@ -246,7 +246,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2024.07.01"
+      "version": "2024.07.02"
     }
   ],
   "GWASCatalog": [
@@ -303,7 +303,7 @@
         "phenotype_to_genes.txt": "http://purl.obolibrary.org/obo/hp/hpoa/phenotype_to_genes.txt"
       },
       "latest": true,
-      "version": "2024.06.27"
+      "version": "2024.07.01"
     }
   ],
   "ITIS": [
@@ -312,7 +312,7 @@
         "itisMySQLTables.tar.gz": "https://www.itis.gov/downloads/itisMySQLTables.tar.gz"
       },
       "latest": true,
-      "version": "2024.4.26"
+      "version": "2024.6.26"
     }
   ],
   "KEGG": [
