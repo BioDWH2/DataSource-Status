@@ -246,7 +246,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2024.07.24"
+      "version": "2024.07.25"
     }
   ],
   "GWASCatalog": [
@@ -306,7 +306,15 @@
       "version": "2024.07.01"
     }
   ],
-  "ITIS": [],
+  "ITIS": [
+    {
+      "files": {
+        "itisMySQLTables.tar.gz": "https://www.itis.gov/downloads/itisMySQLTables.tar.gz"
+      },
+      "latest": true,
+      "version": "2024.6.26"
+    }
+  ],
   "KEGG": [
     {
       "files": {
@@ -393,7 +401,7 @@
         "uniprot_sprot_human.xml.gz": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/taxonomic_divisions/uniprot_sprot_human.xml.gz"
       },
       "latest": true,
-      "version": "2024.05.29"
+      "version": "2024.07.24"
     }
   ]
 }
