@@ -15,7 +15,7 @@
         "cancerdrugsdb.txt": "https://acfdata.coworks.be/cancerdrugsdb.txt"
       },
       "latest": true,
-      "version": "24.07.25"
+      "version": "24.07.31"
     }
   ],
   "DGIdb": [],
@@ -254,7 +254,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2024.07.31"
+      "version": "2024.08.01"
     }
   ],
   "GWASCatalog": [
