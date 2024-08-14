@@ -254,7 +254,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2024.08.13"
+      "version": "2024.08.14"
     }
   ],
   "GWASCatalog": [
@@ -277,7 +277,7 @@
         "SkinG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/SkinG2P.csv.gz"
       },
       "latest": true,
-      "version": "2024.08.07"
+      "version": "2024.08.14"
     }
   ],
   "GeneOntology": [
@@ -311,7 +311,7 @@
         "phenotype_to_genes.txt": "http://purl.obolibrary.org/obo/hp/hpoa/phenotype_to_genes.txt"
       },
       "latest": true,
-      "version": "2024.07.01"
+      "version": "2024.08.13"
     }
   ],
   "ITIS": [
@@ -389,7 +389,7 @@
         "ReDO_Trials_DB.txt": "https://acfdata.coworks.be/ReDO_Trials_DB.txt"
       },
       "latest": true,
-      "version": "2024.01.30"
+      "version": "2024.08.14"
     }
   ],
   "Sider": [],
