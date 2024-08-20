@@ -254,7 +254,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2024.08.19"
+      "version": "2024.08.20"
     }
   ],
   "GWASCatalog": [
@@ -372,7 +372,7 @@
         "redo_db.txt": "https://acfdata.coworks.be/redo_db.txt"
       },
       "latest": true,
-      "version": "23.08.03"
+      "version": "24.08.19"
     }
   ],
   "ReDOTrialsDB": [
