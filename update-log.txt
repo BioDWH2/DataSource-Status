@@ -1,4 +1,4 @@
-Updating data sources at 2024-08-21T08:21:35.636035
+Updating data sources at 2024-08-22T08:20:44.476191
 Failed to retrieve data source "AACT" status list index out of range
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Retrieved 1 versions for data source "CancerDrugsDB"
@@ -6,7 +6,7 @@ Retrieved 0 versions for data source "DGIdb"
 Retrieved 25 versions for data source "DrugBank"
 Failed to retrieve data source "DrugCentral" status list index out of range
 Retrieved 1 versions for data source "EMA"
-Failed to retrieve data source "Gene2Phenotype" status HTTPSConnectionPool(host='www.ebi.ac.uk', port=443): Max retries exceeded with url: /gene2phenotype (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f36ca34c5b0>: Failed to establish a new connection: [Errno 110] Connection timed out'))
+Retrieved 1 versions for data source "Gene2Phenotype"
 Retrieved 1 versions for data source "GeneOntology"
 Retrieved 1 versions for data source "GWASCatalog"
 Retrieved 1 versions for data source "HGNC"
@@ -22,6 +22,6 @@ Retrieved 1 versions for data source "PharmGKB"
 Retrieved 1 versions for data source "ReDO-DB"
 Retrieved 1 versions for data source "ReDOTrialsDB"
 Failed to retrieve data source "Sider" status [Errno 110] Connection timed out
-Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f36ca34cf70>: Failed to resolve 'fdasis.nlm.nih.gov' ([Errno -2] Name or service not known)"))
+Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6d67c43e80>: Failed to resolve 'fdasis.nlm.nih.gov' ([Errno -2] Name or service not known)"))
 Retrieved 1 versions for data source "UniProt"
 Retrieved 1 versions for data source "USDA-PLANTS"
