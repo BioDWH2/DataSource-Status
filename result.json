@@ -254,7 +254,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2024.09.23"
+      "version": "2024.09.24"
     }
   ],
   "GWASCatalog": [
@@ -265,7 +265,7 @@
         "gwas_catalog_studies.tsv": "https://www.ebi.ac.uk/gwas/api/search/downloads/studies_alternative"
       },
       "latest": true,
-      "version": "2024.09.13"
+      "version": "2024.09.22"
     }
   ],
   "Gene2Phenotype": [
