@@ -254,7 +254,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2024.10.02"
+      "version": "2024.10.03"
     }
   ],
   "GWASCatalog": [
@@ -277,7 +277,7 @@
         "SkinG2P.csv.gz": "https://www.ebi.ac.uk/gene2phenotype/downloads/SkinG2P.csv.gz"
       },
       "latest": true,
-      "version": "2024.09.18"
+      "version": "2024.10.02"
     }
   ],
   "GeneOntology": [
@@ -372,7 +372,7 @@
         "redo_db.txt": "https://acfdata.coworks.be/redo_db.txt"
       },
       "latest": true,
-      "version": "24.08.19"
+      "version": "24.10.02"
     }
   ],
   "ReDOTrialsDB": [
@@ -401,7 +401,7 @@
         "uniprot_sprot_human.xml.gz": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/taxonomic_divisions/uniprot_sprot_human.xml.gz"
       },
       "latest": true,
-      "version": "2024.07.24"
+      "version": "2024.10.02"
     }
   ]
 }
