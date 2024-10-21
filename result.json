@@ -9,15 +9,7 @@
       "version": "2016.06.03"
     }
   ],
-  "CancerDrugsDB": [
-    {
-      "files": {
-        "cancerdrugsdb.txt": "https://acfdata.coworks.be/cancerdrugsdb.txt"
-      },
-      "latest": true,
-      "version": "24.07.31"
-    }
-  ],
+  "CancerDrugsDB": [],
   "DGIdb": [],
   "DrugBank": [
     {
@@ -254,7 +246,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2024.10.20"
+      "version": "2024.10.21"
     }
   ],
   "GWASCatalog": [
@@ -358,24 +350,8 @@
       "version": "2024.10.05"
     }
   ],
-  "ReDO-DB": [
-    {
-      "files": {
-        "redo_db.txt": "https://acfdata.coworks.be/redo_db.txt"
-      },
-      "latest": true,
-      "version": "24.10.02"
-    }
-  ],
-  "ReDOTrialsDB": [
-    {
-      "files": {
-        "ReDO_Trials_DB.txt": "https://acfdata.coworks.be/ReDO_Trials_DB.txt"
-      },
-      "latest": true,
-      "version": "2024.08.14"
-    }
-  ],
+  "ReDO-DB": [],
+  "ReDOTrialsDB": [],
   "Sider": [],
   "UNII": [],
   "USDA-PLANTS": [
