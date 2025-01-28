@@ -20,20 +20,10 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2025.01.27"
+      "version": "2025.01.28"
     }
   ],
-  "GWASCatalog": [
-    {
-      "files": {
-        "gwas_catalog_ancestry.tsv": "https://www.ebi.ac.uk/gwas/api/search/downloads/ancestry",
-        "gwas_catalog_associations.tsv": "https://www.ebi.ac.uk/gwas/api/search/downloads/alternative",
-        "gwas_catalog_studies.tsv": "https://www.ebi.ac.uk/gwas/api/search/downloads/studies_alternative"
-      },
-      "latest": true,
-      "version": "2025.01.08"
-    }
-  ],
+  "GWASCatalog": [],
   "Gene2Phenotype": [
     {
       "files": {
