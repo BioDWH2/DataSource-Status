@@ -1,4 +1,4 @@
-Updating data sources at 2025-03-01T08:22:28.846376
+Updating data sources at 2025-03-02T08:21:24.516386
 Failed to retrieve data source "AACT" status list index out of range
 Retrieved 1 versions for data source "CanadianNutrientFile"
 Failed to retrieve data source "CancerDrugsDB" status list index out of range
@@ -13,15 +13,15 @@ Failed to retrieve data source "HGNC" status 550 Could not get file modification
 Retrieved 1 versions for data source "HPO"
 Failed to retrieve data source "ITIS" status list index out of range
 Retrieved 1 versions for data source "KEGG"
-Retrieved 70 versions for data source "MED-RT"
+Failed to retrieve data source "MED-RT" status [Errno -3] Temporary failure in name resolution
 Retrieved 1 versions for data source "Mondo"
-Retrieved 107 versions for data source "NDF-RT"
+Failed to retrieve data source "NDF-RT" status [Errno -3] Temporary failure in name resolution
 Retrieved 0 versions for data source "OpenTargets"
 Retrieved 0 versions for data source "PathwayCommons"
 Retrieved 1 versions for data source "PharmGKB"
 Retrieved 1 versions for data source "ReDO-DB"
 Retrieved 1 versions for data source "ReDOTrialsDB"
 Failed to retrieve data source "Sider" status [Errno 110] Connection timed out
-Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f08d9a72b80>: Failed to resolve 'fdasis.nlm.nih.gov' ([Errno -2] Name or service not known)"))
+Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6f61f632e0>: Failed to resolve 'fdasis.nlm.nih.gov' ([Errno -3] Temporary failure in name resolution)"))
 Retrieved 1 versions for data source "UniProt"
 Retrieved 1 versions for data source "USDA-PLANTS"
