@@ -20,7 +20,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2025.03.05"
+      "version": "2025.03.06"
     }
   ],
   "GWASCatalog": [
@@ -1358,7 +1358,7 @@
         "variants.zip": "https://s3.pgkb.org/data/variants.zip"
       },
       "latest": true,
-      "version": "2025.02.05"
+      "version": "2025.03.05"
     }
   ],
   "ReDO-DB": [
