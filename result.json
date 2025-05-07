@@ -20,7 +20,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2025.05.06"
+      "version": "2025.05.07"
     }
   ],
   "GWASCatalog": [
@@ -31,7 +31,7 @@
         "gwas_catalog_studies.tsv": "https://www.ebi.ac.uk/gwas/api/search/downloads/studies_alternative"
       },
       "latest": true,
-      "version": "2025.04.14"
+      "version": "2025.04.28"
     }
   ],
   "Gene2Phenotype": [],
@@ -58,7 +58,7 @@
         "phenotype_to_genes.txt": "http://purl.obolibrary.org/obo/hp/hpoa/phenotype_to_genes.txt"
       },
       "latest": true,
-      "version": "2025.03.03"
+      "version": "2025.05.06"
     }
   ],
   "ITIS": [],
@@ -597,7 +597,7 @@
         "mondo.obo": "http://purl.obolibrary.org/obo/mondo.obo"
       },
       "latest": true,
-      "version": "2025.04.01"
+      "version": "2025.05.06"
     }
   ],
   "NDF-RT": [
