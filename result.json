@@ -20,7 +20,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2025.07.07"
+      "version": "2025.07.08"
     }
   ],
   "GWASCatalog": [
@@ -81,9 +81,16 @@
   "MED-RT": [
     {
       "files": {
-        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2025.06.02_XML.zip"
+        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2025.07.07_XML.zip"
       },
       "latest": true,
+      "version": "2025.07.07"
+    },
+    {
+      "files": {
+        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2025.06.02_XML.zip"
+      },
+      "latest": false,
       "version": "2025.06.02"
     },
     {
