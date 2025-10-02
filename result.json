@@ -1,14 +1,6 @@
 {
   "AACT": [],
-  "CanadianNutrientFile": [
-    {
-      "files": {
-        "cnf-fcen-csv.zip": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/zip/nutrition/fiche-nutri-data/cnf-fcen-csv.zip"
-      },
-      "latest": true,
-      "version": "2020.07.28"
-    }
-  ],
+  "CanadianNutrientFile": [],
   "CancerDrugsDB": [],
   "DGIdb": [],
   "DrugBank": [],
@@ -20,7 +12,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2025.10.01"
+      "version": "2025.10.02"
     }
   ],
   "GWASCatalog": [
