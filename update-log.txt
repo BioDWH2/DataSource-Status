@@ -1,4 +1,4 @@
-Updating data sources at 2025-10-22T08:30:35.530395
+Updating data sources at 2025-10-23T08:28:46.423433
 Failed to retrieve data source "AACT" status list index out of range
 Failed to retrieve data source "CanadianNutrientFile" status list index out of range
 Failed to retrieve data source "CancerDrugsDB" status list index out of range
@@ -8,7 +8,7 @@ Failed to retrieve data source "DrugCentral" status list index out of range
 Retrieved 1 versions for data source "EMA"
 Failed to retrieve data source "Gene2Phenotype" status list index out of range
 Retrieved 1 versions for data source "GeneOntology"
-Retrieved 1 versions for data source "GWASCatalog"
+Failed to retrieve data source "GWASCatalog" status 'content-disposition'
 Failed to retrieve data source "HGNC" status 550 Could not get file modification time.
 Retrieved 1 versions for data source "HPO"
 Failed to retrieve data source "ITIS" status list index out of range
@@ -22,6 +22,6 @@ Retrieved 1 versions for data source "PharmGKB"
 Failed to retrieve data source "ReDO-DB" status list index out of range
 Failed to retrieve data source "ReDOTrialsDB" status list index out of range
 Failed to retrieve data source "Sider" status [Errno 110] Connection timed out
-Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f42bea6b310>: Failed to resolve 'fdasis.nlm.nih.gov' ([Errno -2] Name or service not known)"))
+Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fe2220d0490>: Failed to resolve 'fdasis.nlm.nih.gov' ([Errno -2] Name or service not known)"))
 Retrieved 1 versions for data source "UniProt"
 Retrieved 1 versions for data source "USDA-PLANTS"
