@@ -1,10 +1,10 @@
-Updating data sources at 2025-11-30T08:26:31.459071
+Updating data sources at 2025-12-01T08:34:20.688632
 Failed to retrieve data source "AACT" status list index out of range
 Failed to retrieve data source "CanadianNutrientFile" status list index out of range
 Failed to retrieve data source "CancerDrugsDB" status list index out of range
 Retrieved 0 versions for data source "DGIdb"
 Failed to retrieve data source "DrugBank" status Expecting value: line 1 column 1 (char 0)
-Failed to retrieve data source "DrugCentral" status HTTPSConnectionPool(host='drugcentral.org', port=443): Max retries exceeded with url: /ActiveDownload (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1131)')))
+Failed to retrieve data source "DrugCentral" status list index out of range
 Retrieved 1 versions for data source "EMA"
 Failed to retrieve data source "Gene2Phenotype" status list index out of range
 Retrieved 1 versions for data source "GeneOntology"
@@ -22,6 +22,6 @@ Retrieved 1 versions for data source "PharmGKB"
 Failed to retrieve data source "ReDO-DB" status list index out of range
 Failed to retrieve data source "ReDOTrialsDB" status list index out of range
 Failed to retrieve data source "Sider" status [Errno 110] Connection timed out
-Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7c07b542b0>: Failed to resolve 'fdasis.nlm.nih.gov' ([Errno -2] Name or service not known)"))
+Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6c21f4fee0>: Failed to resolve 'fdasis.nlm.nih.gov' ([Errno -2] Name or service not known)"))
 Retrieved 1 versions for data source "UniProt"
 Retrieved 1 versions for data source "USDA-PLANTS"
