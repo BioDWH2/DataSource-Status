@@ -12,7 +12,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2025.12.02"
+      "version": "2025.12.03"
     }
   ],
   "GWASCatalog": [],
@@ -614,7 +614,7 @@
         "mondo.obo": "http://purl.obolibrary.org/obo/mondo.obo"
       },
       "latest": true,
-      "version": "2025.11.04"
+      "version": "2025.12.02"
     }
   ],
   "NDF-RT": [
