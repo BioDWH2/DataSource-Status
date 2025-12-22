@@ -1,4 +1,4 @@
-Updating data sources at 2025-12-21T08:28:17.253570
+Updating data sources at 2025-12-22T08:33:30.166101
 Failed to retrieve data source "AACT" status list index out of range
 Failed to retrieve data source "CanadianNutrientFile" status list index out of range
 Failed to retrieve data source "CancerDrugsDB" status list index out of range
@@ -17,11 +17,11 @@ Retrieved 78 versions for data source "MED-RT"
 Retrieved 1 versions for data source "Mondo"
 Retrieved 107 versions for data source "NDF-RT"
 Retrieved 0 versions for data source "OpenTargets"
-Failed to retrieve data source "PathwayCommons" status HTTPSConnectionPool(host='www.pathwaycommons.org', port=443): Max retries exceeded with url: /archives/PC2/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f85c7d6f970>: Failed to resolve 'www.pathwaycommons.org' ([Errno -3] Temporary failure in name resolution)"))
+Retrieved 0 versions for data source "PathwayCommons"
 Retrieved 1 versions for data source "PharmGKB"
 Failed to retrieve data source "ReDO-DB" status list index out of range
 Failed to retrieve data source "ReDOTrialsDB" status list index out of range
 Failed to retrieve data source "Sider" status [Errno 110] Connection timed out
-Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f85c7bf6ac0>: Failed to resolve 'fdasis.nlm.nih.gov' ([Errno -2] Name or service not known)"))
+Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3b7b5a3580>: Failed to resolve 'fdasis.nlm.nih.gov' ([Errno -2] Name or service not known)"))
 Retrieved 1 versions for data source "UniProt"
 Retrieved 1 versions for data source "USDA-PLANTS"
