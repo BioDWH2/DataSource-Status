@@ -1,4 +1,4 @@
-Updating data sources at 2026-04-06T09:11:40.163188
+Updating data sources at 2026-04-07T09:05:14.542673
 Failed to retrieve data source "AACT" status list index out of range
 Failed to retrieve data source "CanadianNutrientFile" status list index out of range
 Failed to retrieve data source "CancerDrugsDB" status list index out of range
@@ -13,15 +13,15 @@ Failed to retrieve data source "HGNC" status 550 Could not get file modification
 Retrieved 1 versions for data source "HPO"
 Failed to retrieve data source "ITIS" status list index out of range
 Retrieved 1 versions for data source "KEGG"
-Retrieved 81 versions for data source "MED-RT"
+Retrieved 82 versions for data source "MED-RT"
 Retrieved 1 versions for data source "Mondo"
 Retrieved 107 versions for data source "NDF-RT"
 Retrieved 0 versions for data source "OpenTargets"
-Retrieved 0 versions for data source "PathwayCommons"
+Failed to retrieve data source "PathwayCommons" status HTTPSConnectionPool(host='www.pathwaycommons.org', port=443): Max retries exceeded with url: /archives/PC2/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f12a5d820a0>: Failed to establish a new connection: [Errno 110] Connection timed out'))
 Retrieved 1 versions for data source "PharmGKB"
 Failed to retrieve data source "ReDO-DB" status list index out of range
 Failed to retrieve data source "ReDOTrialsDB" status list index out of range
 Failed to retrieve data source "Sider" status [Errno 110] Connection timed out
-Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f49d49e9a60>: Failed to resolve 'fdasis.nlm.nih.gov' ([Errno -2] Name or service not known)"))
+Failed to retrieve data source "UNII" status HTTPSConnectionPool(host='fdasis.nlm.nih.gov', port=443): Max retries exceeded with url: /srs/jsp/srs/uniiListDownload.jsp (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f12a5c608e0>: Failed to resolve 'fdasis.nlm.nih.gov' ([Errno -2] Name or service not known)"))
 Retrieved 1 versions for data source "UniProt"
 Retrieved 1 versions for data source "USDA-PLANTS"
