@@ -12,7 +12,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2026.06.02"
+      "version": "2026.06.03"
     }
   ],
   "GWASCatalog": [],
@@ -57,15 +57,22 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2026.05.28"
+      "version": "2026.06.02"
     }
   ],
   "MED-RT": [
     {
       "files": {
-        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2026.05.04_XML.zip"
+        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2026.06.01_XML.zip"
       },
       "latest": true,
+      "version": "2026.06.01"
+    },
+    {
+      "files": {
+        "Core_MEDRT_XML.zip": "https://evs.nci.nih.gov/ftp1/MED-RT/Archive/Core_MEDRT_2026.05.04_XML.zip"
+      },
+      "latest": false,
       "version": "2026.05.04"
     },
     {
@@ -649,7 +656,7 @@
         "mondo.obo": "http://purl.obolibrary.org/obo/mondo.obo"
       },
       "latest": true,
-      "version": "2026.05.05"
+      "version": "2026.06.02"
     }
   ],
   "NDF-RT": [
