@@ -12,7 +12,7 @@
         "Medicines_output_herbal_medicines.xlsx": "https://www.ema.europa.eu/sites/default/files/Medicines_output_herbal_medicines.xlsx"
       },
       "latest": true,
-      "version": "2026.06.23"
+      "version": "2026.06.24"
     }
   ],
   "GWASCatalog": [],
@@ -40,7 +40,7 @@
         "phenotype_to_genes.txt": "http://purl.obolibrary.org/obo/hp/hpoa/phenotype_to_genes.txt"
       },
       "latest": true,
-      "version": "2026.06.06"
+      "version": "2026.06.23"
     }
   ],
   "ITIS": [],
@@ -57,7 +57,7 @@
         "variant": "ftp://ftp.genome.jp/pub/kegg/medicus/network/variant"
       },
       "latest": true,
-      "version": "2026.06.19"
+      "version": "2026.06.23"
     }
   ],
   "MED-RT": [
